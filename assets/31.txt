@@ -1,0 +1,151 @@
+01. Wzór chemiczny ozonu to:
+prawidłowa odpowiedź = O3
+odpowiedz ABCD = A = H2O, B = CO2, C = O3, D = N2
+02. Który polski król został wybrany na tron elekcyjny w 1573 roku?
+prawidłowa odpowiedź = Henryk Walezy
+odpowiedz ABCD = A = Stefan Batory, B = Zygmunt August, C = Henryk Walezy, D = Jan III Sobieski
+03. Jaka jest waluta Wielkiej Brytanii?
+prawidłowa odpowiedź = Funt szterling
+odpowiedz ABCD = A = Euro, B = Funt szterling, C = Dolar, D = Korona
+04. Kto jest autorem powieści "Ojciec Chrzestny"?
+prawidłowa odpowiedź = Mario Puzo
+odpowiedz ABCD = A = Stephen King, B = Mario Puzo, C = Ernest Hemingway, D = John Grisham
+05. Jak nazywa się maksymalna liczba punktów w jednym rzucie w kręglach (bowling)?
+prawidłowa odpowiedź = 300
+odpowiedz ABCD = A = 200, B = 300, C = 150, D = 450
+06. Który kontynent jest najbardziej zaludniony?
+prawidłowa odpowiedź = Azja
+odpowiedz ABCD = A = Afryka, B = Europa, C = Azja, D = Ameryka Północna
+07. Jak nazywa się proces niszczenia organizmów chorobotwórczych za pomocą wysokiej temperatury?
+prawidłowa odpowiedź = Pasteryzacja
+odpowiedz ABCD = A = Dezynfekcja, B = Krystalizacja, C = Pasteryzacja, D = Destylacja
+08. Jak nazywa się miasto, w którym znajduje się słynny most Karola?
+prawidłowa odpowiedź = Praga
+odpowiedz ABCD = A = Wiedeń, B = Bratysława, C = Praga, D = Budapeszt
+09. Ile kości ma dorosły człowiek (w przybliżeniu)?
+prawidłowa odpowiedź = 206
+odpowiedz ABCD = A = 180, B = 206, C = 230, D = 250
+10. Co oznacza skrót PIN?
+prawidłowa odpowiedź = Personal Identification Number
+odpowiedz ABCD = A = Private Identity Node, B = Personal Identification Number, C = Program Installation Network, D = Public Internet Number
+11. Który pierwiastek chemiczny ma symbol S?
+prawidłowa odpowiedź = Siarka
+odpowiedz ABCD = A = Sód, B = Krzem, C = Siarka, D = Selen
+12. Jak nazywa się rzeka, nad którą leży Londyn?
+prawidłowa odpowiedź = Tamiza
+odpowiedz ABCD = A = Sekwana, B = Ren, C = Tamiza, D = Loara
+13. Ile to jest $12^2$?
+prawidłowa odpowiedź = 144
+odpowiedz ABCD = A = 121, B = 132, C = 144, D = 156
+14. Jak nazywa się najwyższy szczyt Karkonoszy?
+prawidłowa odpowiedź = Śnieżka
+odpowiedz ABCD = A = Giewont, B = Babia Góra, C = Rysy, D = Śnieżka
+15. Kto namalował "Trwałość pamięci" (zegary)?
+prawidłowa odpowiedź = Salvador Dalí
+odpowiedz ABCD = A = René Magritte, B = Joan Miró, C = Salvador Dalí, D = Pablo Picasso
+16. Jak nazywa się miasto, w którym znajduje się siedziba ONZ (Organizacji Narodów Zjednoczonych)?
+prawidłowa odpowiedź = Nowy Jork
+odpowiedz ABCD = A = Genewa, B = Wiedeń, C = Waszyngton, D = Nowy Jork
+17. W którym roku wynaleziono koło (około)?
+prawidłowa odpowiedź = Około 3500 p.n.e.
+odpowiedz ABCD = A = Około 10000 p.n.e., B = Około 500 n.e., C = Około 3500 p.n.e., D = Około 1000 p.n.e.
+18. Jak nazywa się stolica Peru?
+prawidłowa odpowiedź = Lima
+odpowiedz ABCD = A = Santiago, B = Quito, C = Lima, D = Bogota
+19. Jak nazywa się najwyższy szczyt Tatr Polskich?
+prawidłowa odpowiedź = Rysy
+odpowiedz ABCD = A = Giewont, B = Kasprowy Wierch, C = Rysy, D = Świnica
+20. Jak nazywa się najmniejsza państwowość na świecie (pod względem powierzchni)?
+prawidłowa odpowiedź = Watykan
+odpowiedz ABCD = A = Monako, B = San Marino, C = Nauru, D = Watykan
+21. Kto był pierwszym prezydentem II Rzeczypospolitej Polskiej?
+prawidłowa odpowiedź = Gabriel Narutowicz
+odpowiedz ABCD = A = Józef Piłsudski, B = Ignacy Mościcki, C = Gabriel Narutowicz, D = Stanisław Wojciechowski
+22. Jak nazywa się część mózgu odpowiedzialna głównie za równowagę i koordynację ruchów?
+prawidłowa odpowiedź = Móżdżek
+odpowiedz ABCD = A = Kora mózgowa, B = Pień mózgu, C = Móżdżek, D = Hipokamp
+23. Jaka jest waluta Szwajcarii?
+prawidłowa odpowiedź = Frank szwajcarski
+odpowiedz ABCD = A = Euro, B = Dolar, C = Korona, D = Frank szwajcarski
+24. Jak nazywa się choroba, której objawem jest amnezja?
+prawidłowa odpowiedź = Utrata pamięci (amnezja)
+odpowiedz ABCD = A = Alzheimera, B = Parkinsona, C = Schizofrenia, D = Utrata pamięci (amnezja)
+25. Jak nazywa się rzeka, nad którą leży Kair?
+prawidłowa odpowiedź = Nil
+odpowiedz ABCD = A = Eufrat, B = Tygrys, C = Nil, D = Kongo
+
+26. Kto jest polską piosenkarką, której hitem w 2023 roku był utwór "Nic Dwa Razy"?
+prawidłowa odpowiedź = sanah
+odpowiedz ABCD = A = Daria Zawiałow, B = sanah, C = Brodka, D = Kaśka Sochacka
+27. Jak nazywa się polski raper, który w 2020 roku wydał płytę "Młody Matczak"?
+prawidłowa odpowiedź = Mata
+odpowiedz ABCD = A = Pezet, B = Taco Hemingway, C = Oki, D = Mata
+28. Jak nazywa się polski serial kryminalny z Borysem Szycem w roli głównej, którego akcja toczy się w Bieszczadach?
+prawidłowa odpowiedź = Wataha
+odpowiedz ABCD = A = Pakt, B = Chyłka, C = Wataha, D = Ślepnąc od świateł
+29. Kto jest polską piosenkarką, która wygrała Eurowizję Junior w 2018 roku z utworem "Anyone I Want to Be"?
+prawidłowa odpowiedź = Roksana Węgiel
+odpowiedz ABCD = A = Viki Gabor, B = Sara James, C = Alicja Szemplińska, D = Roksana Węgiel
+30. Jak nazywa się polski festiwal muzyczny odbywający się co roku w Gdyni?
+prawidłowa odpowiedź = Open'er Festival
+odpowiedz ABCD = A = Pol'and'Rock Festival, B = Orange Warsaw Festival, C = Open'er Festival, D = Męskie Granie
+31. Kto jest autorem przeboju "Złota Rybka" (około 2020 r.)?
+prawidłowa odpowiedź = Kacperczyk
+odpowiedz ABCD = A = sanah, B = Daria Zawiałow, C = Ralph Kaminski, D = Kacperczyk
+32. Jak nazywa się polska piosenkarka znana z licznych duetów z Arturem Rojkiem?
+prawidłowa odpowiedź = Brodka
+odpowiedz ABCD = A = Natalia Kukulska, B = Nosowska, C = Kayah, D = Brodka
+33. Kto jest polskim tenisistą, który w 2022 roku osiągnął 9. miejsce w rankingu ATP?
+prawidłowa odpowiedź = Hubert Hurkacz
+odpowiedz ABCD = A = Łukasz Kubot, B = Marcin Rosół, C = Jerzy Janowicz, D = Hubert Hurkacz
+34. Która polska influencerka prowadzi popularny kanał "Fit Lovers"?
+prawidłowa odpowiedź = Pamela Stefanowicz
+odpowiedz ABCD = A = Deynn, B = Julia Wieniawa, C = Ewa Chodakowska, D = Pamela Stefanowicz
+35. Jak nazywa się polski film historyczny z 2023 roku w reżyserii Macieja Kawulskiego?
+prawidłowa odpowiedź = Akademia Pana Kleksa
+odpowiedz ABCD = A = Kos, B = Chłopi, C = Nieobliczalna, D = Akademia Pana Kleksa
+36. Kto był wokalistą zespołu Varius Manx w czasie wydania płyty "Emu" (1994)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Anita Lipnicka, C = Monika Kuszyńska, D = Andrzej Piaseczny
+37. Jak nazywał się kultowy polski serial komediowy z lat 90. o parze mieszkającej w bloku, ze Stanisławem Tymem w roli głównej?
+prawidłowa odpowiedź = Ryś
+odpowiedz ABCD = A = 40-latek, B = Zmiennicy, C = Ryś, D = Alternatywy 4
+38. Jaki polski film z lat 90. (1995) opowiadał o losach dilerów i drobnych przestępców (np. Jędrula)?
+prawidłowa odpowiedź = Młode Wilki
+odpowiedz ABCD = A = Kiler, B = Psy, C = Młode Wilki, D = Sara
+39. Jak nazywa się pierwszy polski teleturniej, w którym uczestnicy licytowali pieniądze na pytania?
+prawidłowa odpowiedź = Awantura o kasę
+odpowiedz ABCD = A = Miliard w rozumie, B = Jeden z dziesięciu, C = Awantura o kasę, D = Rosyjska ruletka
+40. Kto był wokalistą zespołu Kult w latach 90.?
+prawidłowa odpowiedź = Kazik Staszewski
+odpowiedz ABCD = A = Paweł Kukiz, B = Grzegorz Skawiński, C = Kazik Staszewski, D = Muniek Staszczyk
+41. Jaki polski program rozrywkowy z lat 90. prowadził Wojciech Mann?
+prawidłowa odpowiedź = Szansa na sukces
+odpowiedz ABCD = A = Taniec z gwiazdami, B = Milionerzy, C = Idol, D = Szansa na sukces
+42. Kto zaśpiewał utwór "Prawy do lewego" w duecie z Kayah (1999)?
+prawidłowa odpowiedź = Goran Bregović
+odpowiedz ABCD = A = Krzysztof Krawczyk, B = Goran Bregović, C = Ryszard Rynkowski, D = Zbigniew Wodecki
+43. Jaki był tytuł debiutanckiej płyty zespołu Myslovitz?
+prawidłowa odpowiedź = Myslovitz (1995)
+odpowiedz ABCD = A = Z rozmyślań przy śniadaniu, B = Myslovitz (1995), C = Sun Machine, D = Miłość w czasach popkultury
+44. Jak nazywał się polski program dla dzieci, w którym występowały Kukiełki i Pan Tik-Tak?
+prawidłowa odpowiedź = Tik-Tak
+odpowiedz ABCD = A = Domowe przedszkole, B = Fasolki, C = Tik-Tak, D = 5-10-15
+45. Kto był pierwszą wokalistką Varius Manx (w czasie debiutu płytowego)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Monika Kuszyńska, C = Edyta Bartosiewicz, D = Anita Lipnicka
+46. Który film zdobył Oscara za Najlepszy Film w 1998 roku (o miłości na statku)?
+prawidłowa odpowiedź = Titanic
+odpowiedz ABCD = A = L.A. Confidential, B = Lepiej być nie może, C = Titanic, D = Szeregowiec Ryan
+47. Jak nazywa się wokalista zespołu Red Hot Chili Peppers?
+prawidłowa odpowiedź = Anthony Kiedis
+odpowiedz ABCD = A = Dave Grohl, B = Eddie Vedder, C = Anthony Kiedis, D = Chad Smith
+48. Jak nazywa się kultowy serial komediowy o szóstce przyjaciół mieszkających w Nowym Jorku?
+prawidłowa odpowiedź = Przyjaciele (Friends)
+odpowiedz ABCD = A = Seinfeld, B = Jak poznałem waszą matkę, C = Przyjaciele (Friends), D = Teoria wielkiego podrywu
+49. Kto jest głosem Dartha Vadera w oryginalnej trylogii "Gwiezdnych Wojen"?
+prawidłowa odpowiedź = James Earl Jones
+odpowiedz ABCD = A = Mark Hamill, B = David Prowse, C = James Earl Jones, D = Harrison Ford
+50. Która piosenkarka znana jest z singla "Crazy in Love" (2003)?
+prawidłowa odpowiedź = Beyoncé
+odpowiedz ABCD = A = Britney Spears, B = Christina Aguilera, C = Rihanna, D = Beyoncé

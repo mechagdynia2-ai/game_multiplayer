@@ -1,0 +1,150 @@
+01. Jak nazywa się zjawisko, w którym światło ugina się na krawędziach przeszkód?
+prawidłowa odpowiedź = Dyfrakcja
+odpowiedz ABCD = A = Refrakcja, B = Interferencja, C = Polaryzacja, D = Dyfrakcja
+02. Który polski król został koronowany na Wawelu w 1320 roku, kończąc okres rozbicia dzielnicowego?
+prawidłowa odpowiedź = Władysław Łokietek
+odpowiedz ABCD = A = Kazimierz Wielki, B = Władysław Łokietek, C = Przemysł II, D = Bolesław Śmiały
+03. Jak nazywa się waluta Chorwacji (po wejściu do strefy Euro)?
+prawidłowa odpowiedź = Euro
+odpowiedz ABCD = A = Kuna, B = Dinar, C = Euro, D = Frank
+04. Kto jest autorem powieści "Buszujący w zbożu"?
+prawidłowa odpowiedź = J. D. Salinger
+odpowiedz ABCD = A = F. Scott Fitzgerald, B = Ernest Hemingway, C = J. D. Salinger, D = John Steinbeck
+05. W jakim sporcie używa się terminu "power play"?
+prawidłowa odpowiedź = Hokej na lodzie
+odpowiedz ABCD = A = Piłka nożna, B = Koszykówka, C = Hokej na lodzie, D = Piłka ręczna
+06. Jak nazywa się miasto, w którym znajduje się słynny Błękitny Meczet?
+prawidłowa odpowiedź = Stambuł
+odpowiedz ABCD = A = Kair, B = Jerozolima, C = Stambuł, D = Marrakesz
+07. Kto namalował "Trwałość pamięci" (zegary)?
+prawidłowa odpowiedź = Salvador Dalí
+odpowiedz ABCD = A = René Magritte, B = Joan Miró, C = Salvador Dalí, D = Pablo Picasso
+08. Jak nazywa się polski aktor, który wcielił się w rolę Stana w filmie "Pianista"?
+prawidłowa odpowiedź = Ed Stoppard
+odpowiedz ABCD = A = Michał Żebrowski, B = Piotr Adamczyk, C = Ed Stoppard, D = Daniel Olbrychski
+09. W którym roku odbył się pierwszy lot samolotem braci Wright?
+prawidłowa odpowiedź = 1903
+odpowiedz ABCD = A = 1898, B = 1903, C = 1910, D = 1925
+10. Co oznacza skrót VoIP w telekomunikacji?
+prawidłowa odpowiedź = Voice over Internet Protocol
+odpowiedz ABCD = A = Video over Internet Port, B = Voice over Internet Protocol, C = Versatile Optical Internet Program, D = Very Important Phone
+11. Który pierwiastek chemiczny ma symbol W?
+prawidłowa odpowiedź = Wolfram
+odpowiedz ABCD = A = Wanad, B = Wodór, C = Wolfram, D = Wapń
+12. Jak nazywa się stolica Maroka?
+prawidłowa odpowiedź = Rabat
+odpowiedz ABCD = A = Casablanca, B = Marrakesz, C = Fes, D = Rabat
+13. Ile to jest $2^{-2}$?
+prawidłowa odpowiedź = 0.25 ($\frac{1}{4}$)
+odpowiedz ABCD = A = -4, B = 4, C = 0.5, D = 0.25 ($\frac{1}{4}$)
+14. Jak nazywa się najwyższy szczyt Kordylierów?
+prawidłowa odpowiedź = Denali (McKinley)
+odpowiedz ABCD = A = Mount Logan, B = Mount Whitney, C = Denali (McKinley), D = Aconcagua
+15. Kto jest autorem "Boskiej Komedii"?
+prawidłowa odpowiedź = Dante Alighieri
+odpowiedz ABCD = A = Giovanni Boccaccio, B = Wergiliusz, C = Francesco Petrarca, D = Dante Alighieri
+16. Jak nazywa się najdłuższa rzeka w Polsce?
+prawidłowa odpowiedź = Wisła
+odpowiedz ABCD = A = Odra, B = Warta, C = Wisła, D = Bug
+17. W którym roku upadło Cesarstwo Zachodniorzymskie?
+prawidłowa odpowiedź = 476
+odpowiedz ABCD = A = 395, B = 476, C = 1453, D = 1500
+18. Jak nazywa się główny składnik aktywny w papryczkach chili?
+prawidłowa odpowiedź = Kapsaicyna
+odpowiedz ABCD = A = Nikotyna, B = Kofeina, C = Kapsaicyna, D = Teobromina
+19. Jak nazywa się jezioro, w którym (według legend) żyje potwór Nessie?
+prawidłowa odpowiedź = Loch Ness
+odpowiedz ABCD = A = Loch Lomond, B = Loch Ness, C = Jezioro Bałaton, D = Loch Tay
+20. Jak nazywa się naukowiec, który sformułował prawo grawitacji?
+prawidłowa odpowiedź = Isaac Newton
+odpowiedz ABCD = A = Albert Einstein, B = Galileo Galilei, C = Isaac Newton, D = Johannes Kepler
+21. Kto był polskim władcą w chwili rozbicia dzielnicowego?
+prawidłowa odpowiedź = Bolesław III Krzywousty
+odpowiedz ABCD = A = Mieszko I, B = Kazimierz Wielki, C = Władysław Łokietek, D = Bolesław III Krzywousty
+22. Jak nazywa się najmniejszy organ wewnętrzny człowieka?
+prawidłowa odpowiedź = Szyszynka
+odpowiedz ABCD = A = Trzustka, B = Szyszynka, C = Przysadka, D = Śledziona
+23. Jaka jest waluta Meksyku?
+prawidłowa odpowiedź = Peso meksykańskie
+odpowiedz ABCD = A = Dolar, B = Real, C = Peso meksykańskie, D = Sol
+24. Jak nazywa się polskie miasto nazywane "polskim Manchesterem"?
+prawidłowa odpowiedź = Łódź
+odpowiedz ABCD = A = Kraków, B = Poznań, C = Gdańsk, D = Łódź
+25. Jak nazywa się słynny malarz, który odciął sobie ucho?
+prawidłowa odpowiedź = Vincent van Gogh
+odpowiedz ABCD = A = Paul Gauguin, B = Pablo Picasso, C = Claude Monet, D = Vincent van Gogh
+26. Kto jest autorem "Lotu trzmiela"?
+prawidłowa odpowiedź = Nikołaj Rimski-Korsakow
+odpowiedz ABCD = A = Piotr Czajkowski, B = Siergiej Rachmaninow, C = Nikołaj Rimski-Korsakow, D = Igor Strawiński
+27. Jak nazywa się miasto, w którym odbyły się Igrzyska Olimpijskie w 2016 roku?
+prawidłowa odpowiedź = Rio de Janeiro
+odpowiedz ABCD = A = Londyn, B = Pekin, C = Tokio, D = Rio de Janeiro
+28. Jak nazywa się najdłuższy system górski na Ziemi (podwodny)?
+prawidłowa odpowiedź = Grzbiet Śródoceaniczny
+odpowiedz ABCD = A = Góry Skaliste, B = Andy, C = Himalaje, D = Grzbiet Śródoceaniczny
+29. Czym jest w języku angielskim "firmware"?
+prawidłowa odpowiedź = Oprogramowanie sprzętowe
+odpowiedz ABCD = A = Oprogramowanie aplikacyjne, B = System operacyjny, C = Oprogramowanie sprzętowe, D = Sterownik
+30. Które państwo jest największe pod względem powierzchni w Ameryce Południowej?
+prawidłowa odpowiedź = Brazylia
+odpowiedz ABCD = A = Argentyna, B = Peru, C = Kolumbia, D = Brazylia
+31. Jak nazywa się naukowiec, który odkrył penicylinę?
+prawidłowa odpowiedź = Alexander Fleming
+odpowiedz ABCD = A = Ludwik Pasteur, B = Robert Koch, C = Alexander Fleming, D = Jonas Salk
+32. Co oznacza skrót DNS w kontekście internetu?
+prawidłowa odpowiedź = Domain Name System
+odpowiedz ABCD = A = Data Network Service, B = Digital Naming Standard, C = Domain Name System, D = Direct Network Server
+33. Kto był polskim królem w czasie Potopu Szwedzkiego?
+prawidłowa odpowiedź = Jan II Kazimierz
+odpowiedz ABCD = A = Zygmunt III Waza, B = Władysław IV, C = Jan II Kazimierz, D = Michał Korybut Wiśniowiecki
+34. Jak nazywa się miasto, w którym Mikołaj Kopernik dokonał większości swoich obserwacji?
+prawidłowa odpowiedź = Frombork
+odpowiedz ABCD = A = Toruń, B = Kraków, C = Frombork, D = Padwa
+35. Jaka jest waluta Szwecji?
+prawidłowa odpowiedź = Korona szwedzka
+odpowiedz ABCD = A = Euro, B = Korona duńska, C = Korona norweska, D = Korona szwedzka
+36. Jak nazywa się proces tworzenia się skał magmowych?
+prawidłowa odpowiedź = Krystalizacja (lub krzepnięcie magmy)
+odpowiedz ABCD = A = Erozja, B = Metamorfizm, C = Krystalizacja (lub krzepnięcie magmy), D = Sedymentacja
+37. Kto jest autorem powieści "Paragraf 22"?
+prawidłowa odpowiedź = Joseph Heller
+odpowiedz ABCD = A = Kurt Vonnegut, B = Joseph Heller, C = George Orwell, D = Ken Kesey
+38. Jak nazywa się zjawisko, w którym dwie cząsteczki gazu łączą się w jedną?
+prawidłowa odpowiedź = Reakcja syntezy
+odpowiedz ABCD = A = Reakcja rozkładu, B = Reakcja wymiany, C = Reakcja spalania, D = Reakcja syntezy
+39. Jak nazywa się film, w którym główny bohater, Vincent, próbuje zostać pilotem kosmicznym?
+prawidłowa odpowiedź = Gattaca
+odpowiedz ABCD = A = Interstellar, B = Blade Runner, C = Gattaca, D = Marsjanin
+40. Ile to jest $15 \times 15$?
+prawidłowa odpowiedź = 225
+odpowiedz ABCD = A = 125, B = 150, C = 225, D = 250
+41. Jaki zespół nagrał album "Dark Side of the Moon"?
+prawidłowa odpowiedź = Pink Floyd
+odpowiedz ABCD = A = Led Zeppelin, B = The Beatles, C = Queen, D = Pink Floyd
+42. Który kolor symbolizuje zazdrość i zawiść?
+prawidłowa odpowiedź = Zielony
+odpowiedz ABCD = A = Niebieski, B = Czerwony, C = Zielony, D = Żółty
+43. Jak nazywa się słynny grecki filozof, uczeń Platona, nauczyciel Aleksandra Wielkiego?
+prawidłowa odpowiedź = Arystoteles
+odpowiedz ABCD = A = Sokrates, B = Tales z Miletu, C = Arystoteles, D = Heraklit
+44. Jak nazywa się najwyższy szczyt Kaukazu?
+prawidłowa odpowiedź = Elbrus
+odpowiedz ABCD = A = Kazbek, B = Mont Blanc, C = Ararat, D = Elbrus
+45. Kto jest autorem cyklu "Kroniki Narnii"?
+prawidłowa odpowiedź = C.S. Lewis
+odpowiedz ABCD = A = J.R.R. Tolkien, B = C.S. Lewis, C = Philip Pullman, D = J.K. Rowling
+46. W jakim sporcie używa się terminu "hole-in-one"?
+prawidłowa odpowiedź = Golf
+odpowiedz ABCD = A = Tenis, B = Krykiet, C = Golf, D = Hokej
+47. Jaka jest waluta Czech?
+prawidłowa odpowiedź = Korona czeska
+odpowiedz ABCD = A = Euro, B = Forint, C = Korona czeska, D = Dinar
+48. Jak nazywa się słynny amerykański reżyser, twórca "Pulp Fiction"?
+prawidłowa odpowiedź = Quentin Tarantino
+odpowiedz ABCD = A = Steven Spielberg, B = Christopher Nolan, C = Quentin Tarantino, D = Martin Scorsese
+49. Który organ jest odpowiedzialny za filtrowanie krwi i usuwanie toksyn?
+prawidłowa odpowiedź = Wątroba
+odpowiedz ABCD = A = Nerki, B = Trzustka, C = Śledziona, D = Wątroba
+50. Jak nazywa się słynny bohater komiksów, którego alter ego to Bruce Banner?
+prawidłowa odpowiedź = Hulk
+odpowiedz ABCD = A = Thor, B = Kapitan Ameryka, C = Iron Man, D = Hulk

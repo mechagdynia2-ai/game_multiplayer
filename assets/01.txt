@@ -1,0 +1,150 @@
+01. Jak nazywa się zbiór wszystkich genów organizmu?
+prawidłowa odpowiedz = Genom
+odpowiedz ABCD = A = Allel, B = Chromosom, C = Genom, D = Fenotyp
+02. Który z polskich pisarzy był twórcą dramatów romantycznych, w tym Kordiana?
+prawidłowa odpowiedz = Juliusz Słowacki
+odpowiedz ABCD = A = Adam Mickiewicz, B = Juliusz Słowacki, C = Zygmunt Krasiński, D = Cyprian Kamil Norwid
+03. Jaka jest stolica Wietnamu?
+prawidłowa odpowiedz = Hanoi
+odpowiedz ABCD = A = Ho Chi Minh, B = Hanoi, C = Bangkok, D = Phnom Penh
+04. Kto był pierwszym polskim astronautą?
+prawidłowa odpowiedz = Mirosław Hermaszewski
+odpowiedz ABCD = A = Piotr Adamczyk, B = Mirosław Hermaszewski, C = Sławosz Uznański, D = Ryszard Kukliński
+05. W jakim sporcie zdobywał medale Robert Korzeniowski?
+prawidłowa odpowiedz = Chód sportowy
+odpowiedz ABCD = A = Biegi długodystansowe, B = Chód sportowy, C = Pływanie, D = Wioślarstwo
+06. Jak nazywa się słynny rzymski akwedukt we Francji?
+prawidłowa odpowiedz = Pont du Gard
+odpowiedz ABCD = A = Akwedukt Cezara, B = Pont Neuf, C = Pont du Gard, D = Viaduc de Millau
+07. Jakie miasto nazywano dawniej Konstantynopolem?
+prawidłowa odpowiedz = Stambuł
+odpowiedz ABCD = A = Ankara, B = Izmir, C = Stambuł, D = Kair
+08. Co jest jednostką natężenia prądu elektrycznego?
+prawidłowa odpowiedz = Amper
+odpowiedz ABCD = A = Volt, B = Wat, C = Amper, D = Ohm
+09. Kto był polskim władcą w chwili rozbicia dzielnicowego?
+prawidłowa odpowiedz = Bolesław Krzywousty
+odpowiedz ABCD = A = Mieszko I, B = Kazimierz Wielki, C = Bolesław Krzywousty, D = Władysław Łokietek
+10. Jak nazywa się waluta RPA (Republiki Południowej Afryki)?
+prawidłowa odpowiedz = Rand
+odpowiedz ABCD = A = Dolar, B = Rand, C = Szyling, D = Naira
+11. Którego zmysłu dotyczy anosmia?
+prawidłowa odpowiedz = Węch
+odpowiedz ABCD = A = Smak, B = Węch, C = Słuch, D = Dotyk
+12. Kto stworzył postać Batmana?
+prawidłowa odpowiedz = Bob Kane
+odpowiedz ABCD = A = Stan Lee, B = Jerry Siegel, C = Bob Kane, D = Joe Shuster
+13. Jak nazywa się proces, w którym gwiazda eksploduje, stając się niezwykle jasna?
+prawidłowa odpowiedz = Supernowa
+odpowiedz ABCD = A = Kwazar, B = Czarna dziura, C = Mgławica, D = Supernowa
+14. W którym kraju leży region Transylwania?
+prawidłowa odpowiedz = Rumunia
+odpowiedz ABCD = A = Węgry, B = Bułgaria, C = Rumunia, D = Słowacja
+15. Jaka jest nazwa drugiej pod względem długości rzeki w Europie (po Wołdze)?
+prawidłowa odpowiedz = Dunaj
+odpowiedz ABCD = A = Ren, B = Łaba, C = Dniepr, D = Dunaj
+16. Kto napisał powieść Proces?
+prawidłowa odpowiedz = Franz Kafka
+odpowiedz ABCD = A = Albert Camus, B = Franz Kafka, C = George Orwell, D = Fiodor Dostojewski
+17. Ile to jest $2^5$?
+prawidłowa odpowiedz = 32
+odpowiedz ABCD = A = 16, B = 25, C = 32, D = 64
+18. Jak nazywa się miasto, w którym znajduje się słynny most Karola?
+prawidłowa odpowiedz = Praga
+odpowiedz ABCD = A = Budapeszt, B = Wiedeń, C = Praga, D = Bratysława
+19. Jak nazywa się okres w historii Ziemi, w którym żyły dinozaury?
+prawidłowa odpowiedz = Mezozoik
+odpowiedz ABCD = A = Paleozoik, B = Kenozoik, C = Prekambr, D = Mezozoik
+20. Kto jest autorem utworu muzycznego Cztery pory roku?
+prawidłowa odpowiedz = Antonio Vivaldi
+odpowiedz ABCD = A = Jan Sebastian Bach, B = Georg Friedrich Händel, C = Antonio Vivaldi, D = Joseph Haydn
+21. Jak nazywa się największy port morski w Polsce?
+prawidłowa odpowiedz = Gdańsk
+odpowiedz ABCD = A = Szczecin, B = Gdynia, C = Gdańsk, D = Świnoujście
+22. Jak nazywa się główny składnik aktywny marihuany?
+prawidłowa odpowiedz = THC
+odpowiedz ABCD = A = CBD, B = Morfina, C = THC, D = Kokaina
+23. Które państwo jest największym eksporterem kawy na świecie?
+prawidłowa odpowiedz = Brazylia
+odpowiedz ABCD = A = Kolumbia, B = Wietnam, C = Brazylia, D = Etiopia
+24. Kto był założycielem firmy Microsoft?
+prawidłowa odpowiedz = Bill Gates i Paul Allen
+odpowiedz ABCD = A = Steve Jobs, B = Elon Musk, C = Jeff Bezos, D = Bill Gates i Paul Allen
+25. Jakim metalem jest cyna?
+prawidłowa odpowiedz = Metalem kolorowym
+odpowiedz ABCD = A = Metalem szlachetnym, B = Metalem kolorowym, C = Pierwiastkiem promieniotwórczym, D = Półmetalem
+26. W którym roku odbyły się pierwsze nowożytne Igrzyska Olimpijskie?
+prawidłowa odpowiedz = 1896
+odpowiedz ABCD = A = 1900, B = 1896, C = 1924, D = 1936
+27. Jak nazywa się warstwa atmosfery, w której występuje zorza polarna?
+prawidłowa odpowiedz = Termosfera (Jonosfera)
+odpowiedz ABCD = A = Troposfera, B = Stratosfera, C = Mezosfera, D = Termosfera (Jonosfera)
+28. Jakie imię nosiła matka cesarza Nerona, którą zabił?
+prawidłowa odpowiedz = Agrypina Młodsza
+odpowiedz ABCD = A = Livia, B = Messalina, C = Agrypina Młodsza, D = Kleopatra
+29. Czym w języku angielskim jest Big Ben (nazwa dzwonu)?
+prawidłowa odpowiedz = Wielki Dzwon
+odpowiedz ABCD = A = Wielki Most, B = Wielki Zegar, C = Wielki Dzwon, D = Wielka Latarnia
+30. Jak nazywa się słynna puszcza, w której żyją żubry?
+prawidłowa odpowiedz = Puszcza Białowieska
+odpowiedz ABCD = A = Puszcza Kampinoska, B = Puszcza Białowieska, C = Puszcza Notecka, D = Bory Tucholskie
+31. Jak nazywa się najwyższy szczyt Ameryki Północnej?
+prawidłowa odpowiedz = Denali (McKinley)
+odpowiedz ABCD = A = Mount Everest, B = Aconcagua, C = Denali (McKinley), D = Mount Logan
+32. Kto był założycielem religii buddyzmu?
+prawidłowa odpowiedz = Siddhartha Gautama
+odpowiedz ABCD = A = Jezus Chrystus, B = Mahomet, C = Konfucjusz, D = Siddhartha Gautama
+33. Jaka jest temperatura zamarzania wody w skali Fahrenheita?
+prawidłowa odpowiedz = 32 stopnie
+odpowiedz ABCD = A = 0 stopni, B = 32 stopnie, C = 100 stopni, D = 212 stopni
+34. W którym kraju kręcono większość scen serialu Gra o Tron?
+prawidłowa odpowiedz = Irlandia Północna
+odpowiedz ABCD = A = Hiszpania, B = Malta, C = Irlandia Północna, D = Islandia
+35. Jak nazywa się najsłynniejszy rzeźbiarz epoki renesansu, twórca Dawida?
+prawidłowa odpowiedz = Michał Anioł
+odpowiedz ABCD = A = Donatello, B = Rafael Santi, C = Michał Anioł, D = Leonardo da Vinci
+36. Który polski piłkarz ma pseudonim Lewy?
+prawidłowa odpowiedz = Robert Lewandowski
+odpowiedz ABCD = A = Grzegorz Krychowiak, B = Jakub Błaszczykowski, C = Robert Lewandowski, D = Arkadiusz Milik
+37. Jak nazywa się warstwa ochronna Ziemi chroniąca przed promieniowaniem UV?
+prawidłowa odpowiedz = Warstwa ozonowa
+odpowiedz ABCD = A = Atmosfera, B = Hydrosfera, C = Jonosfera, D = Warstwa ozonowa
+38. Kto był autorem Słynnej teorii ewolucji?
+prawidłowa odpowiedz = Karol Darwin
+odpowiedz ABCD = A = Albert Einstein, B = Louis Pasteur, C = Karol Darwin, D = Maria Skłodowska-Curie
+39. Jak nazywa się stolica Peru?
+prawidłowa odpowiedz = Lima
+odpowiedz ABCD = A = Cuzco, B = La Paz, C = Lima, D = Quito
+40. Ile wynosi pierwiastek sześcienny z 27?
+prawidłowa odpowiedz = 3
+odpowiedz ABCD = A = 9, B = 3, C = 6, D = 4
+41. Jak nazywa się tytułowy bohater opery Mozarta, który jest uwodzicielem?
+prawidłowa odpowiedz = Don Giovanni
+odpowiedz ABCD = A = Figaro, B = Tamino, C = Don Giovanni, D = Papageno
+42. Z jakiego kraju pochodzi słynna potrawa paella?
+prawidłowa odpowiedz = Hiszpania
+odpowiedz ABCD = A = Włochy, B = Portugalia, C = Grecja, D = Hiszpania
+43. W którym roku upadło Cesarstwo Zachodniorzymskie?
+prawidłowa odpowiedz = 476
+odpowiedz ABCD = A = 395, B = 476, C = 1453, D = 1054
+44. Kto wyreżyserował film Jurassic Park?
+prawidłowa odpowiedz = Steven Spielberg
+odpowiedz ABCD = A = George Lucas, B = James Cameron, C = Steven Spielberg, D = Ridley Scott
+45. Co jest stolicą Nigerii?
+prawidłowa odpowiedz = Abudża
+odpowiedz ABCD = A = Lagos, B = Kair, C = Abudża, D = Akra
+46. Jak nazywa się instrument strunowy, na którym grał Jimi Hendrix?
+prawidłowa odpowiedz = Gitara elektryczna
+odpowiedz ABCD = A = Banjo, B = Mandolina, C = Ukulele, D = Gitara elektryczna
+47. Jaki kolor jest symbolicznie łączony ze Świętym Patrykiem?
+prawidłowa odpowiedz = Zielony
+odpowiedz ABCD = A = Niebieski, B = Czerwony, C = Zielony, D = Złoty
+48. W którym mieście znajduje się siedziba ONZ (Organizacji Narodów Zjednoczonych)?
+prawidłowa odpowiedz = Nowy Jork
+odpowiedz ABCD = A = Genewa, B = Nowy Jork, C = Londyn, D = Wiedeń
+49. Jak nazywa się inaczej Kwas acetylosalicylowy (składnik aspiryny)?
+prawidłowa odpowiedz = Salicylan
+odpowiedz ABCD = A = Paracetamol, B = Ibuprofen, C = Salicylan, D = Amoksycylina
+50. Jak nazywa się słynne państwo-miasto, które miało spartańskiego rywala?
+prawidłowa odpowiedz = Ateny
+odpowiedz ABCD = A = Teby, B = Korynt, C = Ateny, D = Mykeny

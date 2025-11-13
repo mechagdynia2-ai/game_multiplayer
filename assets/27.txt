@@ -1,0 +1,150 @@
+01. Jak nazywa się najmniejszy (lecz kluczowy) element funkcjonalny nerki?
+prawidłowa odpowiedź = Nefron
+odpowiedz ABCD = A = Hepatocyt, B = Neuron, C = Alweol, D = Nefron
+02. Który polski król, po abdykacji w 1668 roku, wyjechał do Francji i został opatem Saint-Germain-des-Prés?
+prawidłowa odpowiedź = Jan II Kazimierz Waza
+odpowiedz ABCD = A = Jan III Sobieski, B = Władysław IV Waza, C = Jan II Kazimierz Waza, D = Michał Korybut Wiśniowiecki
+03. Jaka jest waluta Chile?
+prawidłowa odpowiedź = Peso chilijskie
+odpowiedz ABCD = A = Sol, B = Real, C = Peso chilijskie, D = Austral
+04. Kto jest autorem powieści "Wściekłość i wrzask"?
+prawidłowa odpowiedź = William Faulkner
+odpowiedz ABCD = A = Ernest Hemingway, B = John Steinbeck, C = F. Scott Fitzgerald, D = William Faulkner
+05. W jakim sporcie używa się terminu "power play"?
+prawidłowa odpowiedź = Hokej na lodzie
+odpowiedz ABCD = A = Piłka nożna, B = Koszykówka, C = Hokej na lodzie, D = Piłka ręczna
+06. Jak nazywa się miasto, w którym znajduje się słynny Panteon ?
+prawidłowa odpowiedź = Rzym
+odpowiedz ABCD = A = Ateny, B = Paryż, C = Rzym, D = Florencja
+07. Kto jest autorem obrazu "Impresja, wschód słońca", który dał nazwę kierunkowi w sztuce?
+prawidłowa odpowiedź = Claude Monet
+odpowiedz ABCD = A = Auguste Renoir, B = Paul Cézanne, C = Claude Monet, D = Édouard Manet
+08. Jak nazywa się polski reżyser, twórca filmów "Rękopis znaleziony w Saragossie" i "Sanatorium pod Klepsydrą"?
+prawidłowa odpowiedź = Wojciech Jerzy Has
+odpowiedz ABCD = A = Roman Polański, B = Andrzej Wajda, C = Krzysztof Kieślowski, D = Wojciech Jerzy Has
+09. W którym roku odbył się pierwszy udany lot na Księżyc z lądowaniem (Apollo 11)?
+prawidłowa odpowiedź = 1969
+odpowiedz ABCD = A = 1961, B = 1965, C = 1969, D = 1971
+10. Co oznacza skrót API w programowaniu?
+prawidłowa odpowiedź = Application Programming Interface
+odpowiedz ABCD = A = Automated Process Integration, B = Advanced Program Instruction, C = Application Programming Interface, D = Analog Parallel Interconnect
+11. Który pierwiastek chemiczny ma symbol Xe?
+prawidłowa odpowiedź = Ksenon
+odpowiedz ABCD = A = Ksenotym, B = Krzem, C = Ksenon, D = Wolfram
+12. Jak nazywa się stolica Mongolii?
+prawidłowa odpowiedź = Ułan Bator
+odpowiedz ABCD = A = Astana, B = Pekin, C = Ułan Bator, D = Irkuck
+13. Ile wynosi $\ln(e^5)$?
+prawidłowa odpowiedź = 5
+odpowiedz ABCD = A = 0, B = 1, C = $e$, D = 5
+14. Jak nazywa się najwyższy szczyt Alp Japońskich?
+prawidłowa odpowiedź = Góra Kita
+odpowiedz ABCD = A = Fudżi, B = Góra Kita, C = Góra Yari, D = Mount Logan
+15. Kto jest autorem dramatu "Faust"?
+prawidłowa odpowiedź = Johann Wolfgang von Goethe
+odpowiedz ABCD = A = Friedrich Schiller, B = Heinrich Heine, C = Thomas Mann, D = Johann Wolfgang von Goethe
+16. Jak nazywa się rzeka, nad którą leży Chartum (Khartoum), stanowiąca połączenie dwóch Nilów?
+prawidłowa odpowiedź = Nil
+odpowiedz ABCD = A = Niger, B = Zambezi, C = Kongo, D = Nil
+17. W którym roku upadło Cesarstwo Wschodniorzymskie (Bizantyjskie)?
+prawidłowa odpowiedź = 1453
+odpowiedz ABCD = A = 476, B = 1054, C = 1204, D = 1453
+18. Jak nazywa się nauka badająca choroby skóry?
+prawidłowa odpowiedź = Dermatologia
+odpowiedz ABCD = A = Onkologia, B = Patologia, C = Dermatologia, D = Ginekologia
+19. Jak nazywa się miasto, w którym znajduje się słynny Błękitny Meczet (Sultan Ahmed Mosque)?
+prawidłowa odpowiedź = Stambuł
+odpowiedz ABCD = A = Kair, B = Jerozolima, C = Stambuł, D = Marrakesz
+20. Jak nazywa się polska piosenkarka znana z utworu "Konik na biegunach"?
+prawidłowa odpowiedź = Urszula
+odpowiedz ABCD = A = Edyta Górniak, B = Kora, C = Urszula, D = Maryla Rodowicz
+21. Kto był polskim dowódcą w Bitwie pod Cedynią?
+prawidłowa odpowiedź = Mieszko I
+odpowiedz ABCD = A = Bolesław Chrobry, B = Władysław Jagiełło, C = Mieszko I, D = Bolesław Krzywousty
+22. Jak nazywa się główny neuroprzekaźnik odpowiedzialny za odczuwanie przyjemności i nagrody?
+prawidłowa odpowiedź = Dopamina
+odpowiedz ABCD = A = Serotonina, B = Endorfina, C = Adrenalina, D = Dopamina
+23. Jaka jest waluta Chin?
+prawidłowa odpowiedź = Yuan (Renminbi)
+odpowiedz ABCD = A = Jen, B = Won, C = Tenge, D = Yuan (Renminbi)
+24. Jak nazywa się najdłuższy łańcuch górski na Ziemi (podwodny)?
+prawidłowa odpowiedź = Grzbiet Śródoceaniczny
+odpowiedz ABCD = A = Góry Skaliste, B = Andy, C = Himalaje, D = Grzbiet Śródoceaniczny
+25. Jak nazywa się słynny grecki filozof, twórca pojęcia "jaskinia platońska"?
+prawidłowa odpowiedź = Platon
+odpowiedz ABCD = A = Arystoteles, B = Sokrates, C = Platon, D = Heraklit
+26. Kto jest autorem utworu "Boléro"?
+prawidłowa odpowiedź = Maurice Ravel
+odpowiedz ABCD = A = Claude Debussy, B = Erik Satie, C = Maurice Ravel, D = Hector Berlioz
+27. Jak nazywa się miasto, w którym znajduje się siedziba ONZ (Organizacji Narodów Zjednoczonych)?
+prawidłowa odpowiedź = Nowy Jork
+odpowiedz ABCD = A = Genewa, B = Wiedeń, C = Waszyngton, D = Nowy Jork
+28. Jak nazywa się największy ocean na Ziemi?
+prawidłowa odpowiedź = Spokojny
+odpowiedz ABCD = A = Atlantycki, B = Indyjski, C = Arktyczny, D = Spokojny
+29. Czym jest w języku angielskim "cookie" w kontekście internetu?
+prawidłowa odpowiedź = Ciasteczko (plik)
+odpowiedz ABCD = A = Wirus, B = Oprogramowanie, C = Ciasteczko (plik), D = Hasło
+30. Które państwo jest największe pod względem powierzchni w Afryce (po podziale Sudanu)?
+prawidłowa odpowiedź = Algieria
+odpowiedz ABCD = A = Demokratyczna Republika Konga, B = Sudan, C = Libia, D = Algieria
+31. Jak nazywa się naukowiec, który sformułował prawa ruchu planet?
+prawidłowa odpowiedź = Johannes Kepler
+odpowiedz ABCD = A = Mikołaj Kopernik, B = Galileusz, C = Johannes Kepler, D = Isaac Newton
+32. Co oznacza skrót API w programowaniu?
+prawidłowa odpowiedź = Application Programming Interface
+odpowiedz ABCD = A = Automated Process Integration, B = Advanced Program Instruction, C = Application Programming Interface, D = Analog Parallel Interconnect
+33. Kto był polskim królem elekcyjnym, panującym najdłużej (z przerwami)?
+prawidłowa odpowiedź = Zygmunt III Waza
+odpowiedz ABCD = A = Jan III Sobieski, B = August II Mocny, C = Stanisław August Poniatowski, D = Zygmunt III Waza
+34. Jak nazywa się najstarszy uniwersytet w Polsce?
+prawidłowa odpowiedź = Uniwersytet Jagielloński
+odpowiedz ABCD = A = Uniwersytet Warszawski, B = Uniwersytet Jagielloński, C = Akademia Lubrańskiego, D = Uniwersytet Wrocławski
+35. Jaka jest waluta Szwajcarii?
+prawidłowa odpowiedź = Frank szwajcarski
+odpowiedz ABCD = A = Euro, B = Dolar, C = Korona, D = Frank szwajcarski
+36. Jak nazywa się proces chemiczny, w którym roślina wytwarza pokarm za pomocą światła?
+prawidłowa odpowiedź = Fotosynteza
+odpowiedz ABCD = A = Oddychanie, B = Fermentacja, C = Transpiracja, D = Fotosynteza
+37. Kto jest autorem powieści "Mistrz i Małgorzata"?
+prawidłowa odpowiedź = Michaił Bułhakow
+odpowiedz ABCD = A = Lew Tołstoj, B = Borys Pasternak, C = Fiodor Dostojewski, D = Michaił Bułhakow
+38. Jak nazywa się planeta, której rok trwa krócej niż dzień?
+prawidłowa odpowiedź = Wenus
+odpowiedz ABCD = A = Mars, B = Jowisz, C = Uran, D = Wenus
+39. Jak nazywa się polski film w reżyserii Pawła Pawlikowskiego, nagrodzony Oscarem?
+prawidłowa odpowiedź = Ida
+odpowiedz ABCD = A = Pianista, B = Zimna wojna, C = Katyń, D = Ida
+40. Ile wynosi $\log_{10}(1000)$?
+prawidłowa odpowiedź = 3
+odpowiedz ABCD = A = 1, B = 2, C = 10, D = 3
+41. Jak nazywa się amerykański piosenkarz, znany jako "The Voice" (Głos), szczególnie popularny w latach 40.-60. XX wieku?
+prawidłowa odpowiedź = Frank Sinatra
+odpowiedz ABCD = A = Elvis Presley, B = Dean Martin, C = Bing Crosby, D = Frank Sinatra
+42. Jaki kolor symbolizuje czystość w wielu kulturach?
+prawidłowa odpowiedź = Biały
+odpowiedz ABCD = A = Złoty, B = Niebieski, C = Zielony, D = Biały
+43. Jak nazywa się słynny grecki historyk, często nazywany "Ojcem Historii"?
+prawidłowa odpowiedź = Herodot
+odpowiedz ABCD = A = Tukidydes, B = Platon, C = Ksenofont, D = Herodot
+44. Jak nazywa się najwyższy szczyt Uralu?
+prawidłowa odpowiedź = Narodnaja
+odpowiedz ABCD = A = Jamantau, B = Elbrus, C = Góra Magnitnaja, D = Narodnaja
+45. Kto jest autorem powieści "Wojna światów"?
+prawidłowa odpowiedź = H.G. Wells
+odpowiedz ABCD = A = Juliusz Verne, B = Isaac Asimov, C = Ray Bradbury, D = H.G. Wells
+46. W jakim sporcie używa się terminu "hole-in-one"?
+prawidłowa odpowiedź = Golf
+odpowiedz ABCD = A = Tenis, B = Krykiet, C = Hokej na lodzie, D = Golf
+47. Jaka jest waluta Turcji?
+prawidłowa odpowiedź = Lira turecka
+odpowiedz ABCD = A = Euro, B = Dinar, C = Tenge, D = Lira turecka
+48. Jak nazywa się słynny amerykański reżyser, twórca "Pulp Fiction"?
+prawidłowa odpowiedź = Quentin Tarantino
+odpowiedz ABCD = A = Steven Spielberg, B = Christopher Nolan, C = Martin Scorsese, D = Quentin Tarantino
+49. Który hormon jest kluczowy w regulacji poziomu cukru we krwi?
+prawidłowa odpowiedź = Insulina
+odpowiedz ABCD = A = Adrenalina, B = Tyroksyna, C = Kortyzol, D = Insulina
+50. Jak nazywa się słynny bohater komiksów, którego alter ego to Matt Murdock?
+prawidłowa odpowiedź = Daredevil
+odpowiedz ABCD = A = Zielona Latarnia, B = Flash, C = Doctor Strange, D = Daredevil

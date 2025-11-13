@@ -1,0 +1,151 @@
+01. Jaki jest pierwiastek chemiczny z największą liczbą atomową w układzie okresowym (stan na 2025)?
+prawidłowa odpowiedź = Oganeson (Og)
+odpowiedz ABCD = A = Uran (U), B = Pluton (Pu), C = Oganeson (Og), D = Neptun (Np)
+02. Który polski król został koronowany na Wawelu w 1320 roku, kończąc okres rozbicia dzielnicowego?
+prawidłowa odpowiedź = Władysław Łokietek
+odpowiedz ABCD = A = Kazimierz Wielki, B = Przemysł II, C = Władysław Łokietek, D = Bolesław Śmiały
+03. Jaka jest waluta Danii?
+prawidłowa odpowiedź = Korona duńska
+odpowiedz ABCD = A = Euro, B = Korona szwedzka, C = Korona duńska, D = Funt
+04. Kto jest autorem dramatu "Antygona"?
+prawidłowa odpowiedź = Sofokles
+odpowiedz ABCD = A = Eurypides, B = Arystofanes, C = Sofokles, D = Homer
+05. W jakim sporcie używa się terminu "offside" (spalony)?
+prawidłowa odpowiedź = Piłka nożna
+odpowiedz ABCD = A = Koszykówka, B = Siatkówka, C = Hokej na lodzie, D = Piłka nożna
+06. Ile to jest $7 \times 8 - 6$?
+prawidłowa odpowiedź = 50
+odpowiedz ABCD = A = 54, B = 50, C = 48, D = 56
+07. Jak nazywa się miasto, w którym znajduje się słynny Posąg Chrystusa Odkupiciela?
+prawidłowa odpowiedź = Rio de Janeiro 
+odpowiedz ABCD = A = Buenos Aires, B = Santiago, C = Rio de Janeiro, D = São Paulo
+08. Kto namalował obraz "Trwałość pamięci" (zegary)?
+prawidłowa odpowiedź = Salvador Dalí
+odpowiedz ABCD = A = René Magritte, B = Joan Miró, C = Salvador Dalí, D = Pablo Picasso
+09. Ile wynosi pole powierzchni kwadratu o boku 7 cm?
+prawidłowa odpowiedź = 49 cm²
+odpowiedz ABCD = A = 14 cm², B = 28 cm², C = 49 cm², D = 70 cm²
+10. Co oznacza skrót DNS?
+prawidłowa odpowiedź = Domain Name System
+odpowiedz ABCD = A = Data Network Service, B = Digital Naming Standard, C = Domain Name System, D = Direct Network Server
+11. Który pierwiastek chemiczny ma symbol Ag?
+prawidłowa odpowiedź = Srebro
+odpowiedz ABCD = A = Złoto, B = Miedź, C = Srebro, D = Rtęć
+12. Jak nazywa się stolica Mongolii?
+prawidłowa odpowiedź = Ułan Bator
+odpowiedz ABCD = A = Astana, B = Pekin, C = Ułan Bator, D = Irkuck
+13. Ile wynosi $\log_{2}(8)$?
+prawidłowa odpowiedź = 3
+odpowiedz ABCD = A = 2, B = 3, C = 4, D = 8
+14. Jak nazywa się najwyższy szczyt Alp Japońskich?
+prawidłowa odpowiedź = Góra Kita
+odpowiedz ABCD = A = Fudżi, B = Góra Kita, C = Góra Yari, D = Mount Logan
+15. Kto jest autorem powieści "W pustyni i w puszczy"?
+prawidłowa odpowiedź = Henryk Sienkiewicz
+odpowiedz ABCD = A = Bolesław Prus, B = Henryk Sienkiewicz, C = Stefan Żeromski, D = Kornel Makuszyński
+16. Jak nazywa się rzeka, nad którą leży Chartum (Khartoum), stanowiąca połączenie dwóch Nilów?
+prawidłowa odpowiedź = Nil
+odpowiedz ABCD = A = Niger, B = Zambezi, C = Nil, D = Kongo
+17. W którym roku upadło Cesarstwo Wschodniorzymskie (Bizantyjskie)?
+prawidłowa odpowiedź = 1453
+odpowiedz ABCD = A = 476, B = 1054, C = 1204, D = 1453
+18. Jak nazywa się nauka badająca choroby skóry?
+prawidłowa odpowiedź = Dermatologia
+odpowiedz ABCD = A = Onkologia, B = Patologia, C = Dermatologia, D = Ginekologia
+19. Jak nazywa się miasto, w którym znajduje się słynny Błękitny Meczet (Sultan Ahmed Mosque)?
+prawidłowa odpowiedź = Stambuł
+odpowiedz ABCD = A = Kair, B = Jerozolima, C = Stambuł, D = Marrakesz
+20. Jak nazywa się główny neuroprzekaźnik odpowiedzialny za odczuwanie przyjemności i nagrody?
+prawidłowa odpowiedź = Dopamina
+odpowiedz ABCD = A = Serotonina, B = Endorfina, C = Adrenalina, D = Dopamina
+21. Kto był polskim dowódcą w Bitwie pod Cedynią?
+prawidłowa odpowiedź = Mieszko I
+odpowiedz ABCD = A = Bolesław Chrobry, B = Władysław Jagiełło, C = Mieszko I, D = Bolesław Krzywousty
+22. Jak nazywa się najmniejszy organ wewnętrzny człowieka (gruczoł)?
+prawidłowa odpowiedź = Szyszynka
+odpowiedz ABCD = A = Trzustka, B = Przysadka, C = Szyszynka, D = Śledziona
+23. Jaka jest waluta Chin?
+prawidłowa odpowiedź = Yuan (Renminbi)
+odpowiedz ABCD = A = Jen, B = Won, C = Tenge, D = Yuan (Renminbi)
+24. Jak nazywa się najdłuższy łańcuch górski na Ziemi (podwodny)?
+prawidłowa odpowiedź = Grzbiet Śródoceaniczny
+odpowiedz ABCD = A = Góry Skaliste, B = Andy, C = Himalaje, D = Grzbiet Śródoceaniczny
+25. Kto jest autorem utworu "Boléro"?
+prawidłowa odpowiedź = Maurice Ravel
+odpowiedz ABCD = A = Claude Debussy, B = Erik Satie, C = Maurice Ravel, D = Hector Berlioz
+
+26. Kto jest autorem przeboju "Bananowy Song" w nowej wersji (około 2020)?
+prawidłowa odpowiedź = Taco Hemingway
+odpowiedz ABCD = A = sanah, B = Sokół, C = Quebonafide, D = Taco Hemingway
+27. Jak nazywa się polska piosenkarka, która ma hity takie jak "Szampan" i "Ale jazz!"?
+prawidłowa odpowiedź = sanah
+odpowiedz ABCD = A = Daria Zawiałow, B = sanah, C = Brodka, D = Kaśka Sochacka
+28. Jak nazywa się polski serial kryminalny z Borysem Szycem w roli głównej, którego akcja toczy się w Bieszczadach?
+prawidłowa odpowiedź = Wataha
+odpowiedz ABCD = A = Pakt, B = Chyłka, C = Wataha, D = Ślepnąc od świateł
+29. Która polska influencerka, żona znanego youtubera, prowadzi popularny kanał "Wersow"?
+prawidłowa odpowiedź = Weronika Sowa
+odpowiedz ABCD = A = Fagata, B = Weronika Sowa, C = Friz, D = Lexy Chaplin
+30. Jak nazywa się polski festiwal muzyczny odbywający się co roku w Gdyni?
+prawidłowa odpowiedź = Open'er Festival
+odpowiedz ABCD = A = Pol'and'Rock Festival, B = Orange Warsaw Festival, C = Open'er Festival, D = Męskie Granie
+31. Kto jest polskim tenisistą, który w 2022 roku osiągnął 9. miejsce w rankingu ATP?
+prawidłowa odpowiedź = Hubert Hurkacz
+odpowiedz ABCD = A = Łukasz Kubot, B = Marcin Rosół, C = Jerzy Janowicz, D = Hubert Hurkacz
+32. Kto jest autorem przeboju "Złota Rybka" (około 2020 r.)?
+prawidłowa odpowiedź = Kacperczyk
+odpowiedz ABCD = A = sanah, B = Daria Zawiałow, C = Ralph Kaminski, D = Kacperczyk
+33. Jak nazywa się polski film historyczny z 2023 roku w reżyserii Macieja Kawulskiego?
+prawidłowa odpowiedź = Akademia Pana Kleksa
+odpowiedz ABCD = A = Kos, B = Chłopi, C = Nieobliczalna, D = Akademia Pana Kleksa
+34. Jak nazywa się polska piosenkarka znana z licznych duetów z Arturem Rojkiem?
+prawidłowa odpowiedź = Brodka
+odpowiedz ABCD = A = Natalia Kukulska, B = Nosowska, C = Kayah, D = Brodka
+35. Kto wygrał polski Konkurs Piosenki Eurowizji Junior w 2018 roku?
+prawidłowa odpowiedź = Roksana Węgiel
+odpowiedz ABCD = A = Viki Gabor, B = Sara James, C = Alicja Szemplińska, D = Roksana Węgiel
+36. Kto zaśpiewał utwór "Prawy do lewego" w duecie z Kayah (1999)?
+prawidłowa odpowiedź = Goran Bregović
+odpowiedz ABCD = A = Krzysztof Krawczyk, B = Goran Bregović, C = Ryszard Rynkowski, D = Zbigniew Wodecki
+37. Jak nazywał się kultowy polski serial komediowy z lat 90. o parze mieszkającej w bloku, ze Stanisławem Tymem w roli głównej?
+prawidłowa odpowiedź = Ryś
+odpowiedz ABCD = A = 40-latek, B = Zmiennicy, C = Ryś, D = Alternatywy 4
+38. Jaki polski film z lat 90. (1995) opowiadał o losach dilerów i drobnych przestępców (np. Jędrula)?
+prawidłowa odpowiedź = Młode Wilki
+odpowiedz ABCD = A = Kiler, B = Psy, C = Młode Wilki, D = Sara
+39. Jak nazywa się pierwszy polski teleturniej, w którym uczestnicy licytowali pieniądze na pytania?
+prawidłowa odpowiedź = Awantura o kasę
+odpowiedz ABCD = A = Miliard w rozumie, B = Jeden z dziesięciu, C = Awantura o kasę, D = Rosyjska ruletka
+40. Kto był wokalistą zespołu Kult w latach 90.?
+prawidłowa odpowiedź = Kazik Staszewski
+odpowiedz ABCD = A = Paweł Kukiz, B = Grzegorz Skawiński, C = Kazik Staszewski, D = Muniek Staszczyk
+41. Jaki polski program rozrywkowy z lat 90. prowadził Wojciech Mann?
+prawidłowa odpowiedź = Szansa na sukces
+odpowiedz ABCD = A = Taniec z gwiazdami, B = Milionerzy, C = Idol, D = Szansa na sukces
+42. Kto był wokalistą zespołu Varius Manx w czasie wydania płyty "Emu" (1994)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Monika Kuszyńska, C = Edyta Bartosiewicz, D = Anita Lipnicka
+43. Jaki był tytuł debiutanckiej płyty zespołu Myslovitz?
+prawidłowa odpowiedź = Myslovitz (1995)
+odpowiedz ABCD = A = Z rozmyślań przy śniadaniu, B = Myslovitz (1995), C = Sun Machine, D = Miłość w czasach popkultury
+44. Jak nazywał się polski program dla dzieci, w którym występowały Kukiełki i Pan Tik-Tak?
+prawidłowa odpowiedź = Tik-Tak
+odpowiedz ABCD = A = Domowe przedszkole, B = Fasolki, C = Tik-Tak, D = 5-10-15
+45. Kto był pierwszą wokalistką Varius Manx (w czasie debiutu płytowego)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Monika Kuszyńska, C = Edyta Bartosiewicz, D = Anita Lipnicka
+46. Jak nazywa się kultowy serial komediowy o szóstce przyjaciół mieszkających w Nowym Jorku?
+prawidłowa odpowiedź = Przyjaciele (Friends)
+odpowiedz ABCD = A = Seinfeld, B = Jak poznałem waszą matkę, C = Przyjaciele (Friends), D = Teoria wielkiego podrywu
+47. Kto jest głosem Dartha Vadera w oryginalnej trylogii "Gwiezdnych Wojen"?
+prawidłowa odpowiedź = James Earl Jones
+odpowiedz ABCD = A = Mark Hamill, B = David Prowse, C = James Earl Jones, D = Harrison Ford
+48. Która piosenkarka znana jest z singla "Crazy in Love" (2003)?
+prawidłowa odpowiedź = Beyoncé
+odpowiedz ABCD = A = Britney Spears, B = Christina Aguilera, C = Rihanna, D = Beyoncé
+49. Który film zdobył Oscara za Najlepszy Film w 1998 roku (o miłości na statku)?
+prawidłowa odpowiedź = Titanic
+odpowiedz ABCD = A = L.A. Confidential, B = Lepiej być nie może, C = Titanic, D = Szeregowiec Ryan
+50. Jak nazywa się wokalista zespołu Red Hot Chili Peppers?
+prawidłowa odpowiedź = Anthony Kiedis
+odpowiedz ABCD = A = Dave Grohl, B = Eddie Vedder, C = Anthony Kiedis, D = Chad Smith

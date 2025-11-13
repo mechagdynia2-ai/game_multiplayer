@@ -1,0 +1,150 @@
+01. Jak nazywa się zbiór wszystkich kości w ciele człowieka?
+prawidłowa odpowiedź = Szkielet
+odpowiedz ABCD = A = Umięśnienie, B = Szkielet, C = Układ nerwowy, D = Układ krążenia
+02. Który polski filozof jest autorem słynnego stwierdzenia: "Nie ma złych ludzi, są tylko ludzie chorzy i nieszczęśliwi"?
+prawidłowa odpowiedź = Władysław Tatarkiewicz
+odpowiedz ABCD = A = Leszek Kołakowski, B = Władysław Tatarkiewicz, C = Roman Ingarden, D = Tadeusz Kotarbiński
+03. Jak nazywa się waluta Węgier?
+prawidłowa odpowiedź = Forint
+odpowiedz ABCD = A = Korona, B = Leu, C = Forint, D = Dinar
+04. Kto był polskim dowódcą w Bitwie pod Monte Cassino?
+prawidłowa odpowiedź = Władysław Anders
+odpowiedz ABCD = A = Józef Piłsudski, B = Władysław Sikorski, C = Władysław Anders, D = Tadeusz Kościuszko
+05. W jakim sporcie używa się terminu "touchdown"?
+prawidłowa odpowiedź = Futbol amerykański
+odpowiedz ABCD = A = Rugby, B = Koszykówka, C = Baseball, D = Futbol amerykański
+06. Jak nazywa się najdłuższa rzeka na świecie (zgodnie z większością pomiarów)?
+prawidłowa odpowiedź = Amazonka
+odpowiedz ABCD = A = Nil, B = Jangcy, C = Amazonka, D = Missisipi
+07. Jak nazywa się film, w którym główny bohater, Vincent, próbuje zostać pilotem kosmicznym?
+prawidłowa odpowiedź = Gattaca
+odpowiedz ABCD = A = Apollo 13, B = Interstellar, C = Gattaca, D = Marsjanin
+08. Jak nazywa się proces chemiczny, w którym atomy łączą się, tworząc nowe substancje?
+prawidłowa odpowiedź = Synteza (reakcja chemiczna)
+odpowiedz ABCD = A = Rozkład, B = Dysocjacja, C = Synteza (reakcja chemiczna), D = Jonizacja
+09. Kto jest autorem powieści Dziady?
+prawidłowa odpowiedź = Adam Mickiewicz
+odpowiedz ABCD = A = Juliusz Słowacki, B = Zygmunt Krasiński, C = Adam Mickiewicz, D = Cyprian Kamil Norwid
+10. Który pierwiastek chemiczny ma symbol Ag?
+prawidłowa odpowiedź = Srebro
+odpowiedz ABCD = A = Złoto, B = Miedź, C = Srebro, D = Ołów
+11. Jak nazywa się słynna piosenka zespołu Nirvana, wydana w 1991 roku?
+prawidłowa odpowiedź = Smells Like Teen Spirit
+odpowiedz ABCD = A = Come As You Are, B = Losing My Religion, C = Smells Like Teen Spirit, D = Nothing Else Matters
+12. Jak nazywa się najwyższy szczyt Ameryki Południowej?
+prawidłowa odpowiedź = Aconcagua
+odpowiedz ABCD = A = Mont Blanc, B = McKinley (Denali), C = Aconcagua, D = Kilimandżaro
+13. Ile wynosi pole powierzchni kwadratu o boku $7$ cm?
+prawidłowa odpowiedź = 49 cm²
+odpowiedz ABCD = A = 14 cm², B = 28 cm², C = 49 cm², D = 70 cm²
+14. Kto jest uważany za ojca psychoanalizy?
+prawidłowa odpowiedź = Zygmunt Freud
+odpowiedz ABCD = A = Carl Jung, B = Iwan Pawłow, C = Zygmunt Freud, D = B.F. Skinner
+15. Jaka jest stolica Turcji?
+prawidłowa odpowiedź = Ankara
+odpowiedz ABCD = A = Stambuł, B = Ankara, C = Izmir, D = Ateny
+16. W którym roku wynaleziono druk (przez Johannesa Gutenberga)?
+prawidłowa odpowiedź = Około 1440
+odpowiedz ABCD = A = Około 1350, B = Około 1440, C = Około 1500, D = Około 1600
+17. Jak nazywa się choroba, na którą cierpiał Vincent van Gogh, która doprowadziła do obcięcia ucha?
+prawidłowa odpowiedź = Choroba psychiczna (epilepsja skroniowa, psychoza)
+odpowiedz ABCD = A = Schizofrenia, B = Depresja kliniczna, C = Choroba psychiczna (epilepsja skroniowa, psychoza), D = Syfilis
+18. Jak nazywa się miasto, w którym znajduje się słynny posąg Chrystusa Odkupiciela?
+prawidłowa odpowiedź = Rio de Janeiro
+odpowiedz ABCD = A = Meksyk, B = São Paulo, C = Buenos Aires, D = Rio de Janeiro
+19. Kto był polskim władcą w czasie bitwy pod Cedynią?
+prawidłowa odpowiedź = Mieszko I
+odpowiedz ABCD = A = Bolesław Chrobry, B = Mieszko I, C = Władysław Łokietek, D = Kazimierz Wielki
+20. Jak nazywa się najwyższa góra w Austrii?
+prawidłowa odpowiedź = Grossglockner
+odpowiedz ABCD = A = Mont Blanc, B = Grossglockner, C = Matterhorn, D = Rysy
+21. Jak nazywa się pierwsza część cyklu Harry Potter?
+prawidłowa odpowiedź = Kamień Filozoficzny
+odpowiedz ABCD = A = Komnata Tajemnic, B = Więzień Azkabanu, C = Czara Ognia, D = Kamień Filozoficzny
+22. Co jest stolicą Tajwanu?
+prawidłowa odpowiedź = Tajpej
+odpowiedz ABCD = A = Seul, B = Tajpej, C = Pekin, D = Hongkong
+23. Jaki jest główny składnik aktywny w papryczkach chili?
+prawidłowa odpowiedź = Kapsaicyna
+odpowiedz ABCD = A = Nikotyna, B = Kofeina, C = Kapsaicyna, D = Teobromina
+24. Jak nazywa się polskie miasto znane z produkcji porcelany (dawniej)?
+prawidłowa odpowiedź = Ćmielów
+odpowiedz ABCD = A = Wałbrzych, B = Bolesławiec, C = Ćmielów, D = Włocławek
+25. Ile wynosi $1 \div 0$?
+prawidłowa odpowiedź = Nieokreślone (lub błąd)
+odpowiedz ABCD = A = 0, B = 1, C = Nieskończoność, D = Nieokreślone (lub błąd)
+26. Jak nazywa się miasto, w którym znajduje się Teatr Wielki (jedna z największych oper na świecie)?
+prawidłowa odpowiedź = Warszawa
+odpowiedz ABCD = A = Kraków, B = Łódź, C = Wrocław, D = Warszawa
+27. Który piłkarz otrzymał najwięcej razy nagrodę Złota Piłka (Ballon d'Or) (stan na 2024)?
+prawidłowa odpowiedź = Lionel Messi
+odpowiedz ABCD = A = Cristiano Ronaldo, B = Diego Maradona, C = Lionel Messi, D = Johan Cruyff
+28. Jak nazywa się najstarsza forma pisma, wynaleziona przez Sumerów?
+prawidłowa odpowiedź = Pismo klinowe
+odpowiedz ABCD = A = Hieroglify, B = Pismo alfabetyczne, C = Pismo klinowe, D = Pismo węzełkowe
+29. Jak nazywa się część oka, która kontroluje ilość światła wpadającego do środka?
+prawidłowa odpowiedź = Źrenica
+odpowiedz ABCD = A = Tęczówka, B = Rogówka, C = Źrenica, D = Soczewka
+30. W którym kraju leży region Bawaria?
+prawidłowa odpowiedź = Niemcy
+odpowiedz ABCD = A = Austria, B = Szwajcaria, C = Niemcy, D = Czechy
+31. Kto jest twórcą Myszki Miki?
+prawidłowa odpowiedź = Walt Disney
+odpowiedz ABCD = A = William Hanna, B = Tex Avery, C = Walt Disney, D = Chuck Jones
+32. Co oznacza w chemii symbol $O_3$?
+prawidłowa odpowiedź = Ozon
+odpowiedz ABCD = A = Tlen, B = Azot, C = Węgiel, D = Ozon
+33. Jak nazywa się stolica Mongolii?
+prawidłowa odpowiedź = Ułan Bator
+odpowiedz ABCD = A = Astana, B = Pekin, C = Ułan Bator, D = Hanoi
+34. W którym polskim mieście znajduje się słynny Ratusz z koziołkami?
+prawidłowa odpowiedź = Poznań
+odpowiedz ABCD = A = Wrocław, B = Poznań, C = Toruń, D = Gdańsk
+35. Kto był prezydentem USA w czasie ataku na Pearl Harbor (1941)?
+prawidłowa odpowiedź = Franklin Delano Roosevelt
+odpowiedz ABCD = A = Harry Truman, B = Theodore Roosevelt, C = Dwight Eisenhower, D = Franklin Delano Roosevelt
+36. Jak nazywa się polska aktorka, która otrzymała Oscara za rolę w filmie Ida?
+prawidłowa odpowiedź = Agata Kulesza
+odpowiedz ABCD = A = Joanna Kulig, B = Krystyna Janda, C = Agata Kulesza, D = Maja Komorowska
+37. Jak nazywa się rzeka, nad którą leży Londyn?
+prawidłowa odpowiedź = Tamiza
+odpowiedz ABCD = A = Sekwana, B = Ren, C = Tamiza, D = Loara
+38. Czym jest fobia przed zamkniętymi przestrzeniami?
+prawidłowa odpowiedź = Klaustrofobia
+odpowiedz ABCD = A = Akrofobia, B = Agorafobia, C = Arachnofobia, D = Klaustrofobia
+39. Kto skomponował muzykę do filmu Lista Schindlera?
+prawidłowa odpowiedź = John Williams
+odpowiedz ABCD = A = Ennio Morricone, B = Hans Zimmer, C = John Williams, D = Wojciech Kilar
+40. Ile wynosi $16 \times 4$?
+prawidłowa odpowiedź = 64
+odpowiedz ABCD = A = 32, B = 48, C = 64, D = 80
+41. Jak nazywa się najwyższy szczyt Australii (kontynentu)?
+prawidłowa odpowiedź = Góra Kościuszki
+odpowiedz ABCD = A = Uluru, B = Mount Everest, C = Góra Kościuszki, D = Puncak Jaya
+42. Który sportowiec ma pseudonim "Magic"?
+prawidłowa odpowiedź = Earvin Johnson
+odpowiedz ABCD = A = Michael Jordan, B = Earvin Johnson, C = Larry Bird, D = Kobe Bryant
+43. Jak nazywa się słynny malarz, który odciął sobie ucho?
+prawidłowa odpowiedź = Vincent van Gogh
+odpowiedz ABCD = A = Paul Gauguin, B = Claude Monet, C = Pablo Picasso, D = Vincent van Gogh
+44. Jak nazywa się okres w historii, który nastąpił po upadku Cesarstwa Rzymskiego?
+prawidłowa odpowiedź = Średniowiecze
+odpowiedz ABCD = A = Renesans, B = Oświecenie, C = Średniowiecze, D = Starożytność
+45. Co jest stolicą Meksyku?
+prawidłowa odpowiedź = Meksyk (Ciudad de México)
+odpowiedz ABCD = A = Monterrey, B = Guadalajara, C = Meksyk (Ciudad de México), D = Tijuana
+46. Jak nazywa się warstwa Ziemi położona pod skorupą?
+prawidłowa odpowiedź = Płaszcz Ziemi
+odpowiedz ABCD = A = Jądro, B = Płaszcz Ziemi, C = Litosfera, D = Astenosfera
+47. Kto jest autorem powiedzenia "Wiem, że nic nie wiem"?
+prawidłowa odpowiedź = Sokrates
+odpowiedz ABCD = A = Platon, B = Arystoteles, C = Sokrates, D = Tales z Miletu
+48. W którym roku odbył się pierwszy polski lot do kosmosu (Mirosław Hermaszewski)?
+prawidłowa odpowiedź = 1978
+odpowiedz ABCD = A = 1961, B = 1969, C = 1978, D = 1989
+49. Jak nazywa się jednostka miary kąta równa $1/360$ pełnego obrotu?
+prawidłowa odpowiedź = Stopień
+odpowiedz ABCD = A = Radian, B = Kąt, C = Grad, D = Stopień
+50. Jak nazywa się najbardziej zaludniony kraj Unii Europejskiej?
+prawidłowa odpowiedź = Niemcy
+odpowiedz ABCD = A = Francja, B = Włochy, C = Hiszpania, D = Niemcy

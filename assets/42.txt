@@ -1,0 +1,150 @@
+01. Jak nazywa się najmniejsza, strukturalna i funkcjonalna jednostka nerki?
+prawidłowa odpowiedź = Nefron
+odpowiedz ABCD = A = Hepatocyt, B = Neuron, C = Alweol, D = Nefron
+02. W którym roku odbyła się Bitwa pod Cedynią, gdzie Mieszko I pokonał margrabiego Hodona?
+prawidłowa odpowiedź = 972
+odpowiedz ABCD = A = 966, B = 972, C = 1000, D = 1025
+03. Jaka jest waluta Meksyku?
+prawidłowa odpowiedź = Peso meksykańskie
+odpowiedz ABCD = A = Dolar, B = Real, C = Peso meksykańskie, D = Sol
+04. Kto jest autorem powieści "Wściekłość i wrzask"?
+prawidłowa odpowiedź = William Faulkner
+odpowiedz ABCD = A = Ernest Hemingway, B = John Steinbeck, C = F. Scott Fitzgerald, D = William Faulkner
+05. W jakim sporcie używa się terminu "power play"?
+prawidłowa odpowiedź = Hokej na lodzie
+odpowiedz ABCD = A = Piłka nożna, B = Koszykówka, C = Hokej na lodzie, D = Piłka ręczna
+06. Ile to jest $100 \div 20 + 5$?
+prawidłowa odpowiedź = 10
+odpowiedz ABCD = A = 15, B = 25, C = 10, D = 5
+07. Jak nazywa się miasto, w którym znajduje się słynny Panteon?
+prawidłowa odpowiedź = Rzym
+odpowiedz ABCD = A = Ateny, B = Paryż, C = Rzym, D = Florencja
+08. Co oznacza skrót DNS?
+prawidłowa odpowiedź = Domain Name System
+odpowiedz ABCD = A = Data Network Service, B = Digital Naming Standard, C = Domain Name System, D = Direct Network Server
+09. W którym roku wynaleziono tranzystor (urządzenie półprzewodnikowe)?
+prawidłowa odpowiedź = 1947
+odpowiedz ABCD = A = 1935, B = 1947, C = 1958, D = 1969
+10. Co oznacza skrót API w programowaniu?
+prawidłowa odpowiedź = Application Programming Interface
+odpowiedz ABCD = A = Automated Process Integration, B = Advanced Program Instruction, C = Application Programming Interface, D = Analog Parallel Interconnect
+11. Który pierwiastek chemiczny ma symbol Ne?
+prawidłowa odpowiedź = Neon
+odpowiedz ABCD = A = Nikiel, B = Sód, C = Azot, D = Neon
+12. Jak nazywa się stolica Mongolii?
+prawidłowa odpowiedź = Ułan Bator
+odpowiedz ABCD = A = Astana, B = Pekin, C = Ułan Bator, D = Irkuck
+13. Ile to jest $\ln(e^5)$?
+prawidłowa odpowiedź = 5
+odpowiedz ABCD = A = 0, B = 1, C = $e$, D = 5
+14. Jak nazywa się najwyższy szczyt Kaukazu?
+prawidłowa odpowiedź = Elbrus
+odpowiedz ABCD = A = Kazbek, B = Ararat, C = Mont Blanc, D = Elbrus
+15. Kto jest autorem dramatu "Faust"?
+prawidłowa odpowiedź = Johann Wolfgang von Goethe
+odpowiedz ABCD = A = Friedrich Schiller, B = Heinrich Heine, C = Thomas Mann, D = Johann Wolfgang von Goethe
+16. Kto jest polskim wykonawcą hitu "Bananowy Song" w nowej wersji (około 2020)?
+prawidłowa odpowiedź = Taco Hemingway
+odpowiedz ABCD = A = Quebonafide, B = sanah, C = Taco Hemingway, D = Sokół
+17. Jaki tytuł nosiła polska piosenka, która reprezentowała Polskę na Eurowizji w 2023 roku?
+prawidłowa odpowiedź = Solo
+odpowiedz ABCD = A = Paranoia, B = Solo, C = River, D = Melisa
+18. Która polska wokalistka zdobyła Fryderyka w 2022 roku za album "Irenka"?
+prawidłowa odpowiedź = Kasia Lins
+odpowiedz ABCD = A = sanah, B = Daria Zawiałow, C = Mela Koteluk, D = Kasia Lins
+19. Kto zaśpiewał polski hit "Tlen" (około 2020)?
+prawidłowa odpowiedź = Męskie Granie Orkiestra
+odpowiedz ABCD = A = Dawid Podsiadło, B = Krzysztof Zalewski, C = Męskie Granie Orkiestra, D = Taco Hemingway
+20. Kto jest polskim raperem, który wydał hit "Kryptowaluty" (około 2021)?
+prawidłowa odpowiedź = Oki
+odpowiedz ABCD = A = Mata, B = Pezet, C = Oki, D = Żabson
+21. Kto jest polskim tenisistą, który w 2022 roku osiągnął 9. miejsce w rankingu ATP?
+prawidłowa odpowiedź = Hubert Hurkacz
+odpowiedz ABCD = A = Łukasz Kubot, B = Marcin Rosół, C = Jerzy Janowicz, D = Hubert Hurkacz
+22. Jaki polski film historyczny z 2023 roku w reżyserii Macieja Kawulskiego zdobył dużą popularność?
+prawidłowa odpowiedź = Akademia Pana Kleksa
+odpowiedz ABCD = A = Kos, B = Chłopi, C = Nieobliczalna, D = Akademia Pana Kleksa
+23. Kto jest autorem przeboju "Złota Rybka" (około 2020 r.)?
+prawidłowa odpowiedź = Kacperczyk
+odpowiedz ABCD = A = sanah, B = Daria Zawiałow, C = Ralph Kaminski, D = Kacperczyk
+24. Która polska influencerka prowadzi popularny kanał "Fit Lovers"?
+prawidłowa odpowiedź = Pamela Stefanowicz
+odpowiedz ABCD = A = Deynn, B = Julia Wieniawa, C = Ewa Chodakowska, D = Pamela Stefanowicz
+25. Jak nazywa się polska piosenkarka znana z licznych duetów z Arturem Rojkiem?
+prawidłowa odpowiedź = Brodka
+odpowiedz ABCD = A = Natalia Kukulska, B = Nosowska, C = Kayah, D = Brodka
+26. Jak nazywał się kultowy polski serial komediowy z lat 90. o parze mieszkającej w bloku, ze Stanisławem Tymem w roli głównej?
+prawidłowa odpowiedź = Ryś
+odpowiedz ABCD = A = 40-latek, B = Zmiennicy, C = Ryś, D = Alternatywy 4
+27. Jaki polski film z lat 90. (1995) opowiadał o losach dilerów i drobnych przestępców (np. Jędrula)?
+prawidłowa odpowiedź = Młode Wilki
+odpowiedz ABCD = A = Kiler, B = Psy, C = Młode Wilki, D = Sara
+28. Jak nazywa się pierwszy polski teleturniej, w którym uczestnicy licytowali pieniądze na pytania?
+prawidłowa odpowiedź = Awantura o kasę
+odpowiedz ABCD = A = Miliard w rozumie, B = Jeden z dziesięciu, C = Awantura o kasę, D = Rosyjska ruletka
+29. Kto był wokalistą zespołu Kult w latach 90.?
+prawidłowa odpowiedź = Kazik Staszewski
+odpowiedz ABCD = A = Paweł Kukiz, B = Grzegorz Skawiński, C = Kazik Staszewski, D = Muniek Staszczyk
+30. Jaki polski program rozrywkowy z lat 90. prowadził Wojciech Mann?
+prawidłowa odpowiedź = Szansa na sukces
+odpowiedz ABCD = A = Taniec z gwiazdami, B = Milionerzy, C = Idol, D = Szansa na sukces
+31. Jaki był tytuł debiutanckiej płyty zespołu Myslovitz?
+prawidłowa odpowiedź = Myslovitz (1995)
+odpowiedz ABCD = A = Z rozmyślań przy śniadaniu, B = Myslovitz (1995), C = Sun Machine, D = Miłość w czasach popkultury
+32. Jak nazywał się polski program dla dzieci, w którym występowały Kukiełki i Pan Tik-Tak?
+prawidłowa odpowiedź = Tik-Tak
+odpowiedz ABCD = A = Domowe przedszkole, B = Fasolki, C = Tik-Tak, D = 5-10-15
+33. Kto był pierwszą wokalistką Varius Manx (w czasie debiutu płytowego)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Monika Kuszyńska, C = Edyta Bartosiewicz, D = Anita Lipnicka
+34. Kto zaśpiewał utwór "Prawy do lewego" w duecie z Kayah (1999)?
+prawidłowa odpowiedź = Goran Bregović
+odpowiedz ABCD = A = Krzysztof Krawczyk, B = Goran Bregović, C = Ryszard Rynkowski, D = Zbigniew Wodecki
+35. Kto był wokalistą zespołu Varius Manx w czasie wydania płyty "Emu" (1994)?
+prawidłowa odpowiedź = Anita Lipnicka
+odpowiedz ABCD = A = Kasia Stankiewicz, B = Monika Kuszyńska, C = Edyta Bartosiewicz, D = Anita Lipnicka
+36. Kto skomponował muzykę do baletu "Dziadek do orzechów"?
+prawidłowa odpowiedź = Piotr Czajkowski
+odpowiedz ABCD = A = Wolfgang Amadeusz Mozart, B = Piotr Czajkowski, C = Fryderyk Chopin, D = Jan Sebastian Bach
+37. Kto skomponował operę "Czarodziejski flet"?
+prawidłowa odpowiedź = Wolfgang Amadeusz Mozart
+odpowiedz ABCD = A = Giuseppe Verdi, B = Richard Wagner, C = Wolfgang Amadeusz Mozart, D = Georges Bizet
+38. Kto jest autorem utworu "Cztery pory roku"?
+prawidłowa odpowiedź = Antonio Vivaldi
+odpowiedz ABCD = A = Jan Sebastian Bach, B = Georg Friedrich Händel, C = Antonio Vivaldi, D = Joseph Haydn
+39. Jak nazywa się słynny utwór fortepianowy Ludwiga van Beethovena, którego nazwę nadał poeta Rellstab?
+prawidłowa odpowiedź = Sonata Księżycowa
+odpowiedz ABCD = A = Sonata Patetyczna, B = Sonata Appassionata, C = Sonata Księżycowa, D = Dla Elizy
+40. Kto jest autorem "Marsza Tureckiego"?
+prawidłowa odpowiedź = Wolfgang Amadeusz Mozart
+odpowiedz ABCD = A = Ludwig van Beethoven, B = Jan Sebastian Bach, C = Fryderyk Chopin, D = Wolfgang Amadeusz Mozart
+41. Który film zdobył Oscara za Najlepszy Film w 1998 roku (o miłości na statku)?
+prawidłowa odpowiedź = Titanic
+odpowiedz ABCD = A = L.A. Confidential, B = Lepiej być nie może, C = Titanic, D = Szeregowiec Ryan
+42. Jak nazywa się wokalista zespołu Red Hot Chili Peppers?
+prawidłowa odpowiedź = Anthony Kiedis
+odpowiedz ABCD = A = Dave Grohl, B = Eddie Vedder, C = Anthony Kiedis, D = Chad Smith
+43. Jak nazywa się kultowy serial komediowy o szóstce przyjaciół mieszkających w Nowym Jorku?
+prawidłowa odpowiedź = Przyjaciele (Friends)
+odpowiedz ABCD = A = Seinfeld, B = Jak poznałem waszą matkę, C = Przyjaciele (Friends), D = Teoria wielkiego podrywu
+44. Kto jest głosem Dartha Vadera w oryginalnej trylogii "Gwiezdnych Wojen"?
+prawidłowa odpowiedź = James Earl Jones
+odpowiedz ABCD = A = Mark Hamill, B = David Prowse, C = James Earl Jones, D = Harrison Ford
+45. Która piosenkarka znana jest z singla "Crazy in Love" (2003)?
+prawidłowa odpowiedź = Beyoncé
+odpowiedz ABCD = A = Britney Spears, B = Christina Aguilera, C = Rihanna, D = Beyoncé
+46. Kto jest wokalistą zespołu Behemoth?
+prawidłowa odpowiedź = Adam "Nergal" Darski
+odpowiedz ABCD = A = Tomasz Makowiecki, B = Czesław Mozil, C = Adam "Nergal" Darski, D = Piotr Rogucki
+47. Który polski raper wydał w 2021 roku płytę "Jarmark"?
+prawidłowa odpowiedź = Taco Hemingway
+odpowiedz ABCD = A = Pezet, B = Oki, C = Mata, D = Taco Hemingway
+48. Jak nazywa się polski serial o tematyce prawniczej z Magdaleną Cielecką w roli głównej (np. z 2017 roku)?
+prawidłowa odpowiedź = Chyłka
+odpowiedz ABCD = A = Komisarz Alex, B = Pakt, C = Wataha, D = Chyłka
+49. Kto wygrał polski Konkurs Piosenki Eurowizji Junior w 2019 roku z utworem "Anyone I Want to Be"?
+prawidłowa odpowiedź = Viki Gabor
+odpowiedz ABCD = A = Roksana Węgiel, B = Sara James, C = Viki Gabor, D = Blanka
+50. Kto jest polską piosenkarką, która ma hity takie jak "Szampan" i "Ale jazz!"?
+prawidłowa odpowiedź = sanah
+odpowiedz ABCD = A = Daria Zawiałow, B = sanah, C = Brodka, D = Kaśka Sochacka

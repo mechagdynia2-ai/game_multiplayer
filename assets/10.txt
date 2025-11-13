@@ -1,0 +1,150 @@
+01. Jak nazywa się najmniejszy kontynent na świecie?
+prawidłowa odpowiedź = Australia (lub Australia i Oceania)
+odpowiedz ABCD = A = Europa, B = Antarktyda, C = Australia (lub Australia i Oceania), D = Ameryka Południowa
+02. Który polski poeta jest autorem Pana Tadeusza?
+prawidłowa odpowiedź = Adam Mickiewicz
+odpowiedz ABCD = A = Juliusz Słowacki, B = Zygmunt Krasiński, C = Adam Mickiewicz, D = Cyprian Kamil Norwid
+03. Jaka jest waluta Indii?
+prawidłowa odpowiedź = Rupia indyjska
+odpowiedz ABCD = A = Juan, B = Tenge, C = Rupia indyjska, D = Yen
+04. W którym roku wynaleziono koło?
+prawidłowa odpowiedź = Około 3500 p.n.e.
+odpowiedz ABCD = A = Około 10000 p.n.e., B = Około 500 n.e., C = Około 3500 p.n.e., D = Około 1000 p.n.e.
+05. W jakim sporcie używa się terminu "rzut wolny"?
+prawidłowa odpowiedź = Koszykówka
+odpowiedz ABCD = A = Siatkówka, B = Piłka ręczna, C = Koszykówka, D = Hokej
+06. Jak nazywa się najsłynniejsza hiszpańska budowla sakralna, zaprojektowana przez Antonio Gaudiego?
+prawidłowa odpowiedź = Sagrada Família 
+odpowiedz ABCD = A = Alhambra, B = Katedra w Sewilli, C = Sagrada Família, D = Meczet w Kordobie
+07. Kto namalował obraz Krzyk?
+prawidłowa odpowiedź = Edvard Munch
+odpowiedz ABCD = A = Pablo Picasso, B = Vincent van Gogh, C = Salvador Dalí, D = Edvard Munch
+08. Jak nazywa się polski aktor, który zagrał Maksa w filmie Seksmisja?
+prawidłowa odpowiedź = Jerzy Stuhr
+odpowiedz ABCD = A = Olgierd Łukaszewicz, B = Jerzy Stuhr, C = Janusz Gajos, D = Bogusław Linda
+09. W którym roku wynaleziono Internet (protokół TCP/IP)?
+prawidłowa odpowiedź = Około 1978-1983
+odpowiedz ABCD = A = 1950, B = 1978-1983, C = 1995, D = 2000
+10. Co oznacza skrót GIF w informatyce?
+prawidłowa odpowiedź = Graphics Interchange Format
+odpowiedz ABCD = A = Global Internet File, B = Graphics Interchange Format, C = General Information Form, D = Gigabyte Image File
+11. Który pierwiastek chemiczny ma symbol Hg?
+prawidłowa odpowiedź = Rtęć
+odpowiedz ABCD = A = Złoto, B = Srebro, C = Rtęć, D = Ołów
+12. Jak nazywa się stolica Maroka?
+prawidłowa odpowiedź = Rabat
+odpowiedz ABCD = A = Casablanca, B = Marrakesz, C = Rabat, D = Fes
+13. Ile to jest $12 \times 12$?
+prawidłowa odpowiedź = 144
+odpowiedz ABCD = A = 121, B = 132, C = 144, D = 156
+14. Jak nazywa się pasmo górskie, które rozciąga się wzdłuż wschodniego wybrzeża Ameryki Północnej?
+prawidłowa odpowiedź = Appalachy
+odpowiedz ABCD = A = Kordyliery, B = Andy, C = Appalachy, D = Góry Skaliste
+15. Kto jest autorem powieści Dżuma?
+prawidłowa odpowiedź = Albert Camus
+odpowiedz ABCD = A = Jean-Paul Sartre, B = Albert Camus, C = Franz Kafka, D = Ernest Hemingway
+16. Jak nazywa się słynny portugalski odkrywca, który dotarł drogą morską do Indii?
+prawidłowa odpowiedź = Vasco da Gama
+odpowiedz ABCD = A = Ferdynand Magellan, B = Krzysztof Kolumb, C = Vasco da Gama, D = Amerigo Vespucci
+17. W którym roku wynaleziono pismo (w Mezopotamii)?
+prawidłowa odpowiedź = Około 3200 p.n.e.
+odpowiedz ABCD = A = Około 10000 p.n.e., B = Około 3200 p.n.e., C = Około 1200 p.n.e., D = Około 500 n.e.
+18. Co jest głównym składnikiem kredy do pisania?
+prawidłowa odpowiedź = Węglan wapnia
+odpowiedz ABCD = A = Gips, B = Krzemian, C = Węglan wapnia, D = Grafit
+19. Jak nazywa się najstarszy klub piłkarski w Polsce?
+prawidłowa odpowiedź = Cracovia
+odpowiedz ABCD = A = Wisła Kraków, B = Lech Poznań, C = Legia Warszawa, D = Cracovia
+20. Jak nazywa się stolica Peru?
+prawidłowa odpowiedź = Lima
+odpowiedz ABCD = A = Cuzco, B = La Paz, C = Quito, D = Lima
+21. Jak nazywa się pierwszy program kosmiczny USA, który wysłał człowieka na orbitę?
+prawidłowa odpowiedź = Program Merkury
+odpowiedz ABCD = A = Program Apollo, B = Program Gemini, C = Program Merkury, D = Program Skylab
+22. Kto był założycielem dynastii Jagiellonów?
+prawidłowa odpowiedź = Władysław II Jagiełło
+odpowiedz ABCD = A = Kazimierz Wielki, B = Władysław II Jagiełło, C = Władysław Warneńczyk, D = Mieszko I
+23. Jaka jest waluta Szwecji?
+prawidłowa odpowiedź = Korona szwedzka
+odpowiedz ABCD = A = Euro, B = Korona duńska, C = Korona norweska, D = Korona szwedzka
+24. Jak nazywa się najdłuższa rzeka w Polsce?
+prawidłowa odpowiedź = Wisła
+odpowiedz ABCD = A = Odra, B = Warta, C = Bug, D = Wisła
+25. Jak nazywa się starożytne miasto zburzone przez wybuch Wezuwiusza?
+prawidłowa odpowiedź = Pompeje
+odpowiedz ABCD = A = Herkulanum, B = Rzym, C = Bizancjum, D = Pompeje
+26. Kto jest autorem utworu muzycznego Pory Roku (nie Vivaldi)?
+prawidłowa odpowiedź = Piotr Czajkowski
+odpowiedz ABCD = A = Fryderyk Chopin, B = Jan Sebastian Bach, C = Piotr Czajkowski, D = Wolfgang Amadeusz Mozart
+27. Jak nazywa się miasto, w którym znajduje się słynny Czerwony Plac?
+prawidłowa odpowiedź = Moskwa
+odpowiedz ABCD = A = Sankt Petersburg, B = Kijów, C = Moskwa, D = Warszawa
+28. Jak nazywa się najwyższy szczyt Alp?
+prawidłowa odpowiedź = Mont Blanc
+odpowiedz ABCD = A = Matterhorn, B = Grossglockner, C = Mont Blanc, D = Rysy
+29. Czym jest fobia przed otwartymi przestrzeniami?
+prawidłowa odpowiedź = Agorafobia
+odpowiedz ABCD = A = Klaustrofobia, B = Akrofobia, C = Arachnofobia, D = Agorafobia
+30. Jak nazywa się polskie miasto nazywane "polskim Manchesterem"?
+prawidłowa odpowiedź = Łódź
+odpowiedz ABCD = A = Wrocław, B = Poznań, C = Katowice, D = Łódź
+31. Jak nazywa się film, w którym główny bohater, Neo, musi wybrać między czerwoną a niebieską pigułką?
+prawidłowa odpowiedź = Matrix
+odpowiedz ABCD = A = Incepcja, B = Blade Runner, C = Equilibrium, D = Matrix
+32. Co oznacza skrót URL w adresie internetowym?
+prawidłowa odpowiedź = Uniform Resource Locator
+odpowiedz ABCD = A = Ultimate Retrieval Link, B = Universal Resource Log, C = Uniform Resource Locator, D = User Registration Logic
+33. Kto był polskim władcą w czasie bitwy pod Grunwaldem?
+prawidłowa odpowiedź = Władysław II Jagiełło
+odpowiedz ABCD = A = Kazimierz Wielki, B = Jan Olbracht, C = Władysław II Jagiełło, D = Bolesław Chrobry
+34. Jak nazywa się najstarszy uniwersytet w Wielkiej Brytanii?
+prawidłowa odpowiedź = Uniwersytet Oksfordzki
+odpowiedz ABCD = A = Uniwersytet w Cambridge, B = Uniwersytet Oksfordzki, C = London School of Economics, D = Uniwersytet Edynburski
+35. Jaka jest waluta Kanady?
+prawidłowa odpowiedź = Dolar kanadyjski
+odpowiedz ABCD = A = Euro, B = Dolar amerykański, C = Dolar kanadyjski, D = Peso
+36. Jak nazywa się proces, w którym ciało stałe zmienia się w gaz z pominięciem stanu ciekłego?
+prawidłowa odpowiedź = Sublimacja
+odpowiedz ABCD = A = Parowanie, B = Krzepnięcie, C = Skraplanie, D = Sublimacja
+37. Kto jest autorem powieści Władca Much?
+prawidłowa odpowiedź = William Golding
+odpowiedz ABCD = A = George Orwell, B = Aldous Huxley, C = William Golding, D = Ray Bradbury
+38. Jak nazywa się naukowiec, który odkrył penicylinę?
+prawidłowa odpowiedź = Alexander Fleming
+odpowiedz ABCD = A = Ludwik Pasteur, B = Robert Koch, C = Alexander Fleming, D = Jonas Salk
+39. Jak nazywa się najgłębsze jezioro na świecie?
+prawidłowa odpowiedź = Bajkał
+odpowiedz ABCD = A = Morze Kaspijskie, B = Jezioro Tanganika, C = Bajkał, D = Jezioro Wiktorii
+40. Ile to jest $\frac{1}{2} \div \frac{1}{4}$?
+prawidłowa odpowiedź = 2
+odpowiedz ABCD = A = $\frac{1}{8}$, B = $\frac{1}{2}$, C = 2, D = 4
+41. Kto był pierwszym prezydentem II Rzeczypospolitej Polskiej?
+prawidłowa odpowiedź = Gabriel Narutowicz
+odpowiedz ABCD = A = Józef Piłsudski, B = Ignacy Mościcki, C = Stanisław Wojciechowski, D = Gabriel Narutowicz
+42. Jaki kolor jest symbolicznie łączony z nadzieją i wiosną?
+prawidłowa odpowiedź = Zielony
+odpowiedz ABCD = A = Czerwony, B = Żółty, C = Zielony, D = Niebieski
+43. Jak nazywa się słynny grecki filozof, uczeń Sokratesa?
+prawidłowa odpowiedź = Platon
+odpowiedz ABCD = A = Arystoteles, B = Tales z Miletu, C = Platon, D = Heraklit
+44. Jak nazywa się najsłynniejszy wulkan na Sycylii, który jest stale aktywny?
+prawidłowa odpowiedź = Etna
+odpowiedz ABCD = A = Wezuwiusz, B = Stromboli, C = Etna, D = Fudżi
+45. Jak nazywa się najdłuższy system górski na Ziemi (podwodny)?
+prawidłowa odpowiedź = Grzbiet Śródoceaniczny
+odpowiedz ABCD = A = Andy, B = Himalaje, C = Góry Skaliste, D = Grzbiet Śródoceaniczny
+46. Jak nazywa się polski reżyser, twórca "Pianisty"?
+prawidłowa odpowiedź = Roman Polański
+odpowiedz ABCD = A = Krzysztof Kieślowski, B = Andrzej Wajda, C = Roman Polański, D = Agnieszka Holland
+47. W jakim sporcie zasłynął Michael Jordan?
+prawidłowa odpowiedź = Koszykówka
+odpowiedz ABCD = A = Baseball, B = Futbol amerykański, C = Koszykówka, D = Golf
+48. Co oznacza skrót CE w oznaczeniach produktów w Unii Europejskiej?
+prawidłowa odpowiedź = Conformité Européenne (Zgodność Europejska)
+odpowiedz ABCD = A = Central Europe, B = Certification European, C = Communauté Européenne, D = Conformité Européenne (Zgodność Europejska)
+49. Który organ jest odpowiedzialny za filtrowanie krwi i produkcję moczu?
+prawidłowa odpowiedź = Nerki
+odpowiedz ABCD = A = Wątroba, B = Śledziona, C = Nerki, D = Trzustka
+50. Jak nazywa się słynna amerykańska aktorka, która zagrała Marylin Monroe w filmie "Blondynka"?
+prawidłowa odpowiedź = Ana de Armas
+odpowiedz ABCD = A = Margot Robbie, B = Jennifer Lawrence, C = Scarlett Johansson, D = Ana de Armas

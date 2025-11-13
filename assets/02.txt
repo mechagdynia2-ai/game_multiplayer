@@ -1,0 +1,150 @@
+01. W jakim mieście w 1989 roku nastąpiło zburzenie muru?
+prawidłowa odpowiedz = Berlin
+odpowiedz ABCD = A = Monachium, B = Wiedeń, C = Berlin, D = Praga
+02. Który ocean jest najmniejszy?
+prawidłowa odpowiedz = Arktyczny
+odpowiedz ABCD = A = Atlantycki, B = Indyjski, C = Spokojny, D = Arktyczny
+03. Jak nazywał się koń Aleksandra Wielkiego?
+prawidłowa odpowiedz = Bucefał
+odpowiedz ABCD = A = Rozynant, B = Bucefał, C = Kasztanka, D = Pegaz
+04. Kto stworzył system operacyjny Linux?
+prawidłowa odpowiedz = Linus Torvalds
+odpowiedz ABCD = A = Bill Gates, B = Steve Jobs, C = Linus Torvalds, D = Mark Zuckerberg
+05. W jakim kraju urodził się Freddie Mercury?
+prawidłowa odpowiedz = Tanzania (Zanzibar)
+odpowiedz ABCD = A = Wielka Brytania, B = Indie, C = Stany Zjednoczone, D = Tanzania (Zanzibar)
+06. Który polski skoczek narciarski jako pierwszy wygrał Puchar Świata?
+prawidłowa odpowiedz = Adam Małysz
+odpowiedz ABCD = A = Kamil Stoch, B = Adam Małysz, C = Piotr Żyła, D = Wojciech Fortuna
+07. Jak nazywa się stolica Irlandii?
+prawidłowa odpowiedz = Dublin
+odpowiedz ABCD = A = Belfast, B = Edynburg, C = Dublin, D = Kopenhaga
+08. Co jest głównym składnikiem szkła?
+prawidłowa odpowiedz = Piasek kwarcowy (krzemionka)
+odpowiedz ABCD = A = Węgiel, B = Piasek kwarcowy (krzemionka), C = Wapień, D = Glina
+09. Kto napisał Trylogię, w skład której wchodzi Ogniem i mieczem?
+prawidłowa odpowiedz = Henryk Sienkiewicz
+odpowiedz ABCD = A = Bolesław Prus, B = Adam Mickiewicz, C = Henryk Sienkiewicz, D = Juliusz Słowacki
+10. Jak nazywa się planeta z charakterystycznymi pierścieniami?
+prawidłowa odpowiedz = Saturn
+odpowiedz ABCD = A = Jowisz, B = Mars, C = Saturn, D = Uran
+11. Które miasto jest siedzibą Trybunału Sprawiedliwości Unii Europejskiej?
+prawidłowa odpowiedz = Luksemburg
+odpowiedz ABCD = A = Bruksela, B = Strasburg, C = Haga, D = Luksemburg
+12. Jak nazywa się największy park narodowy w Polsce?
+prawidłowa odpowiedz = Biebrzański Park Narodowy
+odpowiedz ABCD = A = Tatrzański Park Narodowy, B = Słowiński Park Narodowy, C = Biebrzański Park Narodowy, D = Bieszczadzki Park Narodowy
+13. W którym roku wynaleziono żarówkę elektryczną (użyteczną komercyjnie)?
+prawidłowa odpowiedz = 1879
+odpowiedz ABCD = A = 1820, B = 1879, C = 1905, D = 1920
+14. Jak nazywa się japoński napój alkoholowy z fermentowanego ryżu?
+prawidłowa odpowiedz = Sake
+odpowiedz ABCD = A = Soju, B = Wódka, C = Kimchi, D = Sake
+15. Jaka jest maksymalna liczba graczy w drużynie piłki nożnej (na boisku)?
+prawidłowa odpowiedz = 11
+odpowiedz ABCD = A = 10, B = 11, C = 12, D = 15
+16. Jak nazywa się stolica Nowej Zelandii?
+prawidłowa odpowiedz = Wellington
+odpowiedz ABCD = A = Auckland, B = Christchurch, C = Sydney, D = Wellington
+17. Czym jest wodorost (H2S)?
+prawidłowa odpowiedz = Siarkowodór
+odpowiedz ABCD = A = Dwutlenek siarki, B = Siarkowodór, C = Kwas solny, D = Woda ciężka
+18. Jakie imię nosiła kochanka Fryderyka Chopina, znana jako George Sand?
+prawidłowa odpowiedz = Amantine
+odpowiedz ABCD = A = Maria, B = Klementyna, C = Amantine, D = Anna
+19. Kto był pierwszym Polakiem, który zdobył Mount Everest zimą?
+prawidłowa odpowiedz = Krzysztof Wielicki
+odpowiedz ABCD = A = Jerzy Kukuczka, B = Krzysztof Wielicki, C = Leszek Cichy, D = Andrzej Zawada
+20. Jakie miasto jest znane jako Białe Miasto (po polsku)?
+prawidłowa odpowiedz = Belgrad
+odpowiedz ABCD = A = Budapeszt, B = Belgrad, C = Saloniki, D = Sofia
+21. Jak nazywał się statek, na którym podróżował Charles Darwin?
+prawidłowa odpowiedz = Beagle
+odpowiedz ABCD = A = Bounty, B = Mayflower, C = HMS Victory, D = Beagle
+22. Jak nazywa się najbardziej zaludniony kraj Afryki?
+prawidłowa odpowiedz = Nigeria
+odpowiedz ABCD = A = Egipt, B = RPA, C = Etiopia, D = Nigeria
+23. Czym jest mezoterapia?
+prawidłowa odpowiedz = Zabieg medycyny estetycznej
+odpowiedz ABCD = A = Rodzaj masażu, B = Proces chemiczny, C = Zabieg medycyny estetycznej, D = Technika malarska
+24. W którym polskim mieście znajduje się Wawel?
+prawidłowa odpowiedz = Kraków
+odpowiedz ABCD = A = Warszawa, B = Gdańsk, C = Lublin, D = Kraków
+25. Kto zagrał Neo w filmie Matrix?
+prawidłowa odpowiedz = Keanu Reeves
+odpowiedz ABCD = A = Leonardo DiCaprio, B = Brad Pitt, C = Keanu Reeves, D = Tom Cruise
+26. Ile to jest $15^2$?
+prawidłowa odpowiedz = 225
+odpowiedz ABCD = A = 125, B = 150, C = 225, D = 250
+27. Jak nazywa się główna arteria wodna Nowego Jorku?
+prawidłowa odpowiedz = Rzeka Hudson
+odpowiedz ABCD = A = Sekwana, B = Rzeka Hudson, C = Rzeka Potomak, D = Missisipi
+28. Jakim kolorem malowany jest Hulk w większości adaptacji?
+prawidłowa odpowiedz = Zielony
+odpowiedz ABCD = A = Czerwony, B = Niebieski, C = Zielony, D = Żółty
+29. Kto dowodził wojskami polskimi w bitwie pod Grunwaldem?
+prawidłowa odpowiedz = Władysław Jagiełło
+odpowiedz ABCD = A = Kazimierz Wielki, B = Mieszko I, C = Władysław Jagiełło, D = Jan III Sobieski
+30. Jak nazywa się najwyższa góra w Szkocji?
+prawidłowa odpowiedz = Ben Nevis
+odpowiedz ABCD = A = Snowdon, B = Ben Nevis, C = Scafell Pike, D = K2
+31. Jak nazywa się waluta Szwajcarii?
+prawidłowa odpowiedz = Frank szwajcarski
+odpowiedz ABCD = A = Euro, B = Frank szwajcarski, C = Korona szwajcarska, D = Lir
+32. Ile serc ma ośmiornica?
+prawidłowa odpowiedz = 3
+odpowiedz ABCD = A = 1, B = 2, C = 3, D = 4
+33. Kto napisał zbiór opowiadań pt. Dekameron?
+prawidłowa odpowiedz = Giovanni Boccaccio
+odpowiedz ABCD = A = Dante Alighieri, B = Giovanni Boccaccio, C = Francesco Petrarca, D = Niccolò Machiavelli
+34. W którym sporcie wyróżniamy style klasyczny i dowolny (kraula)?
+prawidłowa odpowiedz = Pływanie
+odpowiedz ABCD = A = Jazda figurowa, B = Biegi narciarskie, C = Pływanie, D = Gimnastyka
+35. Jaka jest stolica Portugalii?
+prawidłowa odpowiedz = Lizbona
+odpowiedz ABCD = A = Madryt, B = Lizbona, C = Porto, D = Sewilla
+36. Co oznacza skrót HTML?
+prawidłowa odpowiedz = HyperText Markup Language
+odpowiedz ABCD = A = High Traffic Management Logic, B = HyperText Markup Language, C = Home Tool Management Link, D = Hot Mail Transfer Log
+37. Kto namalował Krzyk?
+prawidłowa odpowiedz = Edvard Munch
+odpowiedz ABCD = A = Gustav Klimt, B = Salvador Dalí, C = Pablo Picasso, D = Edvard Munch
+38. Jak nazywa się główna część cząsteczki DNA, która niesie informację genetyczną?
+prawidłowa odpowiedz = Gen
+odpowiedz ABCD = A = Białko, B = Kwas, C = Wirus, D = Gen
+39. Jakim kolorem jest pomalowany autobus z Londynu (piętrowy)?
+prawidłowa odpowiedz = Czerwony
+odpowiedz ABCD = A = Żółty, B = Niebieski, C = Czerwony, D = Zielony
+40. Kto był polskim władcą w czasie Potopu szwedzkiego?
+prawidłowa odpowiedz = Jan II Kazimierz
+odpowiedz ABCD = A = Zygmunt III Waza, B = Władysław IV, C = Jan II Kazimierz, D = August II Mocny
+41. Jak nazywa się najdłuższy most wiszący na świecie (pod względem głównego przęsła)?
+prawidłowa odpowiedz = Most Çanakkale 1915 (Turcja)
+odpowiedz ABCD = A = Most Golden Gate, B = Most Akashi Kaikyō, C = Most Çanakkale 1915 (Turcja), D = Most Brooklyn
+42. Jaka jest waluta Chin?
+prawidłowa odpowiedz = Yuan (Renminbi)
+odpowiedz ABCD = A = Jen, B = Won, C = Yuan (Renminbi), D = Tenge
+43. W którym roku zatonął Titanic?
+prawidłowa odpowiedz = 1912
+odpowiedz ABCD = A = 1908, B = 1912, C = 1925, D = 1930
+44. Z jakim instrumentem najczęściej kojarzony jest Louis Armstrong?
+prawidłowa odpowiedz = Trąbka
+odpowiedz ABCD = A = Saksofon, B = Fortepian, C = Gitara, D = Trąbka
+45. Jaka jest powierzchnia Polski (w przybliżeniu w km²)?
+prawidłowa odpowiedz = 312 679
+odpowiedz ABCD = A = 250 000, B = 312 679, C = 400 000, D = 500 000
+46. Jak nazywa się proces, w którym ciało zmienia stan z gazowego na ciekły?
+prawidłowa odpowiedz = Skraplanie
+odpowiedz ABCD = A = Parowanie, B = Topnienie, C = Krzepnięcie, D = Skraplanie
+47. Kto skomponował operę Carmen?
+prawidłowa odpowiedz = Georges Bizet
+odpowiedz ABCD = A = Giuseppe Verdi, B = Richard Wagner, C = Georges Bizet, D = Wolfgang Amadeusz Mozart
+48. Jak nazywa się najgłębsze jezioro na świecie?
+prawidłowa odpowiedz = Bajkał
+odpowiedz ABCD = A = Morze Kaspijskie, B = Jezioro Tanganika, C = Bajkał, D = Wielkie Jezioro Słone
+49. Która grecka bogini była patronką miłości i piękna?
+prawidłowa odpowiedz = Afrodyta
+odpowiedz ABCD = A = Artemida, B = Atena, C = Hera, D = Afrodyta
+50. Jak nazywa się słynny portugalski piłkarz, który zaczynał w klubie Sporting CP?
+prawidłowa odpowiedz = Cristiano Ronaldo
+odpowiedz ABCD = A = Luís Figo, B = Eusébio, C = Ricardo Quaresma, D = Cristiano Ronaldo

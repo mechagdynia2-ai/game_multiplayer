@@ -1,0 +1,150 @@
+01. Jak nazywa się największy port w Europie?
+prawidłowa odpowiedz = Rotterdam
+odpowiedz ABCD = A = Hamburg, B = Antwerpia, C = Rotterdam, D = Gdańsk
+02. Który polski kompozytor był autorem opery Straszny dwór?
+prawidłowa odpowiedz = Stanisław Moniuszko
+odpowiedz ABCD = A = Fryderyk Chopin, B = Ignacy Jan Paderewski, C = Stanisław Moniuszko, D = Karol Szymanowski
+03. Kto wygłosił słynne przemówienie Mam marzenie (I Have a Dream)?
+prawidłowa odpowiedz = Martin Luther King Jr.
+odpowiedz ABCD = A = Malcolm X, B = Martin Luther King Jr., C = Nelson Mandela, D = John F. Kennedy
+04. Czym zajmuje się dyscyplina numizmatyka?
+prawidłowa odpowiedz = Badaniem monet
+odpowiedz ABCD = A = Badaniem owadów, B = Badaniem snów, C = Badaniem monet, D = Badaniem skał
+05. Jaki kolor jest przeciwieństwem koloru żółtego w modelu CMYK (druk)?
+prawidłowa odpowiedz = Niebieski (lub cyjan)
+odpowiedz ABCD = A = Czerwony, B = Zielony, C = Fioletowy, D = Niebieski (lub cyjan)
+06. Jak nazywa się japońska sztuka składania papieru?
+prawidłowa odpowiedz = Origami
+odpowiedz ABCD = A = Bonsai, B = Ikebana, C = Judo, D = Origami
+07. Który pierwiastek chemiczny ma symbol K?
+prawidłowa odpowiedz = Potas
+odpowiedz ABCD = A = Wapń, B = Krypton, C = Potas, D = Krzem
+08. Jak nazywa się miasto, w którym znajduje się słynne Koloseum?
+prawidłowa odpowiedz = Rzym
+odpowiedz ABCD = A = Ateny, B = Neapol, C = Rzym, D = Wenecja
+09. Kto napisał i wyreżyserował film Incepcja?
+prawidłowa odpowiedz = Christopher Nolan
+odpowiedz ABCD = A = Quentin Tarantino, B = Steven Spielberg, C = Christopher Nolan, D = Stanley Kubrick
+10. Jak nazywa się królestwo, z którego pochodził Robin Hood?
+prawidłowa odpowiedz = Anglia
+odpowiedz ABCD = A = Walia, B = Szkocja, C = Anglia, D = Francja
+11. Jak nazywa się najpopularniejsza kryptowaluta?
+prawidłowa odpowiedz = Bitcoin
+odpowiedz ABCD = A = Ethereum, B = Litecoin, C = Bitcoin, D = Ripple
+12. Jak nazywa się polska piosenkarka znana z utworu Dziś już wiem (z filmu Trędowata)?
+prawidłowa odpowiedz = Irena Santor
+odpowiedz ABCD = A = Ewa Demarczyk, B = Irena Santor, C = Maryla Rodowicz, D = Krystyna Janda
+13. W którym roku odbył się pierwszy lot braci Wright?
+prawidłowa odpowiedz = 1903
+odpowiedz ABCD = A = 1888, B = 1903, C = 1914, D = 1927
+14. Jak nazywa się stolica Chile?
+prawidłowa odpowiedz = Santiago
+odpowiedz ABCD = A = Buenos Aires, B = Lima, C = Santiago, D = Quito
+15. Ile to jest $1000 \div 5$?
+prawidłowa odpowiedz = 200
+odpowiedz ABCD = A = 500, B = 200, C = 100, D = 250
+16. Jak nazywa się najdłuższa rzeka w Ameryce Północnej?
+prawidłowa odpowiedz = Missisipi
+odpowiedz ABCD = A = Kolorado, B = Missouri, C = Jukon, D = Missisipi
+17. Jak nazywa się proces niszczenia organizmów chorobotwórczych za pomocą wysokiej temperatury?
+prawidłowa odpowiedz = Pasteryzacja
+odpowiedz ABCD = A = Dezynfekcja, B = Krystalizacja, C = Pasteryzacja, D = Destylacja
+18. W jakim sporcie zasłynął Wayne Gretzky?
+prawidłowa odpowiedz = Hokej na lodzie
+odpowiedz ABCD = A = Koszykówka, B = Hokej na lodzie, C = Futbol amerykański, D = Baseball
+19. Jak nazywa się słynny obraz Rembrandta przedstawiający nocną scenę grupową?
+prawidłowa odpowiedz = Straż nocna
+odpowiedz ABCD = A = Lekcja anatomii doktora Tulpa, B = Powrót syna marnotrawnego, C = Straż nocna, D = Danae
+20. Jak nazywa się waluta Czech?
+prawidłowa odpowiedz = Korona czeska
+odpowiedz ABCD = A = Euro, B = Złoty, C = Korona czeska, D = Forint
+21. Jak nazywa się polski król, który przegrał bitwę pod Warną?
+prawidłowa odpowiedz = Władysław III Warneńczyk
+odpowiedz ABCD = A = Kazimierz Jagiellończyk, B = Jan Olbracht, C = Władysław III Warneńczyk, D = Henryk Walezy
+22. Jak nazywa się część komputera odpowiedzialna za wykonywanie obliczeń?
+prawidłowa odpowiedz = Procesor (CPU)
+odpowiedz ABCD = A = Pamięć RAM, B = Karta graficzna (GPU), C = Dysk twardy (HDD), D = Procesor (CPU)
+23. Czym jest w języku angielskim termin "software"?
+prawidłowa odpowiedz = Oprogramowanie
+odpowiedz ABCD = A = Sprzęt komputerowy, B = Urządzenie, C = Oprogramowanie, D = Sieć komputerowa
+24. Jaki kontynent jest najbardziej zaludniony?
+prawidłowa odpowiedz = Azja
+odpowiedz ABCD = A = Afryka, B = Europa, C = Ameryka Północna, D = Azja
+25. Jak nazywa się najmniejsza państwowość na świecie (pod względem powierzchni)?
+prawidłowa odpowiedz = Watykan
+odpowiedz ABCD = A = Monako, B = San Marino, C = Watykan, D = Nauru
+26. Kto napisał i zaśpiewał utwór Bohemian Rhapsody?
+prawidłowa odpowiedz = Queen (Freddie Mercury)
+odpowiedz ABCD = A = The Beatles, B = Led Zeppelin, C = Queen (Freddie Mercury), D = Pink Floyd
+27. Ile jest księżyców Marsa?
+prawidłowa odpowiedz = 2
+odpowiedz ABCD = A = 0, B = 1, C = 2, D = 4
+28. Jak nazywa się stolica Austrii?
+prawidłowa odpowiedz = Wiedeń
+odpowiedz ABCD = A = Salzburg, B = Budapeszt, C = Praga, D = Wiedeń
+29. W jakim okresie historycznym miała miejsce Rewolucja Francuska?
+prawidłowa odpowiedz = 1789
+odpowiedz ABCD = A = 1688, B = 1776, C = 1789, D = 1848
+30. Jak nazywa się popularna amerykańska zupa o intensywnym smaku i aromacie?
+prawidłowa odpowiedz = Chowder
+odpowiedz ABCD = A = Gazpacho, B = Gulasz, C = Chowder, D = Minestrone
+31. Kto był założycielem dynastii Piastów?
+prawidłowa odpowiedz = Mieszko I
+odpowiedz ABCD = A = Bolesław Chrobry, B = Mieszko I, C = Władysław Łokietek, D = Lech
+32. Co oznacza skrót ADHD?
+prawidłowa odpowiedz = Zespół nadpobudliwości psychoruchowej z deficytem uwagi
+odpowiedz ABCD = A = Autyzm i Deficyt Hormonalny, B = Zespół nadpobudliwości psychoruchowej z deficytem uwagi, C = Aktywność Dużej Hali Dzieci, D = Anoreksja i Deficyt Hormonalny
+33. Jaka jest średnia długość życia kleszcza (w fazie aktywnej)?
+prawidłowa odpowiedz = 2-3 lata
+odpowiedz ABCD = A = Kilka dni, B = Kilka tygodni, C = 6 miesięcy, D = 2-3 lata
+34. W którym kraju leży rejon Katalonia (ze stolicą w Barcelonie)?
+prawidłowa odpowiedz = Hiszpania
+odpowiedz ABCD = A = Francja, B = Włochy, C = Hiszpania, D = Portugalia
+35. Jaka jest jednostka mocy w układzie SI?
+prawidłowa odpowiedz = Wat
+odpowiedz ABCD = A = Dżul, B = Volt, C = Wat, D = Amper
+36. Jak nazywa się pierwsza część trylogii Gwiezdne Wojny (wydana jako czwarta)?
+prawidłowa odpowiedz = Nowa nadzieja
+odpowiedz ABCD = A = Mroczne widmo, B = Imperium kontratakuje, C = Nowa nadzieja, D = Powrót Jedi
+37. Kto był polskim malarzem, autorem Bitwy pod Grunwaldem?
+prawidłowa odpowiedz = Jan Matejko
+odpowiedz ABCD = A = Jacek Malczewski, B = Stanisław Wyspiański, C = Jan Matejko, D = Wojciech Kossak
+38. Czym jest fobia przed pająkami?
+prawidłowa odpowiedz = Arachnofobia
+odpowiedz ABCD = A = Klaustrofobia, B = Akrofobia, C = Arachnofobia, D = Agorafobia
+39. Jak nazywa się najstarsze miasto na świecie (ciągle zamieszkane, np. Damaszek)?
+prawidłowa odpowiedz = Damaszek
+odpowiedz ABCD = A = Jerozolima, B = Ateny, C = Damaszek, D = Byblos
+40. Ile wynosi $3 + 5 \times 4$?
+prawidłowa odpowiedz = 23
+odpowiedz ABCD = A = 32, B = 23, C = 20, D = 15
+41. Kto był dowódcą w Powstaniu Warszawskim (głównym)?
+prawidłowa odpowiedz = Tadeusz Bór-Komorowski
+odpowiedz ABCD = A = Leopold Okulicki, B = Tadeusz Bór-Komorowski, C = Stefan Rowecki, D = Jan Karski
+42. Jaki kolor symbolizuje nadzieję i życie w symbolice chrześcijańskiej?
+prawidłowa odpowiedz = Zielony
+odpowiedz ABCD = A = Biały, B = Czerwony, C = Fioletowy, D = Zielony
+43. Jak nazywa się popularny włoski ser, twardy i dojrzewający, dodawany do makaronów?
+prawidłowa odpowiedz = Parmezan (Parmigiano Reggiano)
+odpowiedz ABCD = A = Mozzarella, B = Gorgonzola, C = Parmezan (Parmigiano Reggiano), D = Ricotta
+44. Kto jest autorem powieści Zbrodnia i kara?
+prawidłowa odpowiedz = Fiodor Dostojewski
+odpowiedz ABCD = A = Lew Tołstoj, B = Antoni Czechow, C = Iwan Turgieniew, D = Fiodor Dostojewski
+45. W którym państwie leży Góra Olimp (siedziba greckich bogów)?
+prawidłowa odpowiedz = Grecja
+odpowiedz ABCD = A = Włochy, B = Turcja, C = Grecja, D = Cypr
+46. Jak nazywa się rzeka, nad którą leży Kair?
+prawidłowa odpowiedz = Nil
+odpowiedz ABCD = A = Eufrat, B = Tygrys, C = Nil, D = Kongo
+47. Kto jest rekordzistą pod względem liczby goli strzelonych w historii mistrzostw świata w piłce nożnej (stan na 2024)?
+prawidłowa odpowiedz = Miroslav Klose
+odpowiedz ABCD = A = Pelé, B = Cristiano Ronaldo, C = Miroslav Klose, D = Lionel Messi
+48. Co oznacza skrót PKB?
+prawidłowa odpowiedz = Produkt Krajowy Brutto
+odpowiedz ABCD = A = Polska Kasa Bankowa, B = Produkt Krajowy Brutto, C = Państwowy Komitet Budowlany, D = Polski Klub Bilardowy
+49. Który ptak jest symbolem Nowej Zelandii?
+prawidłowa odpowiedz = Kiwi
+odpowiedz ABCD = A = Orzeł, B = Emu, C = Kiwi, D = Kookaburra
+50. Jak nazywa się słynny portugalski odkrywca, który opłynął Ziemię?
+prawidłowa odpowiedz = Ferdynand Magellan
+odpowiedz ABCD = A = Krzysztof Kolumb, B = Vasco da Gama, C = Amerigo Vespucci, D = Ferdynand Magellan

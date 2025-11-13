@@ -1,0 +1,150 @@
+01. Jak nazywa się największa pustynia na świecie (nie licząc Antarktydy)?
+prawidłowa odpowiedz = Sahara
+odpowiedz ABCD = A = Gobi, B = Kalahari, C = Atakama, D = Sahara
+02. Który pierwiastek chemiczny ma symbol Na?
+prawidłowa odpowiedz = Sód
+odpowiedz ABCD = A = Nikiel, B = Sód, C = Azot, D = Neon
+03. Kto napisał Wesele?
+prawidłowa odpowiedź = Stanisław Wyspiański
+odpowiedz ABCD = A = Adam Mickiewicz, B = Juliusz Słowacki, C = Stanisław Wyspiański, D = Bolesław Prus
+04. Jaka jest stolica Wenezueli?
+prawidłowa odpowiedz = Caracas
+odpowiedz ABCD = A = Bogota, B = Quito, C = Caracas, D = Lima
+05. W którym sporcie stosuje się chwyt zwany 'ippon'?
+prawidłowa odpowiedź = Judo
+odpowiedz ABCD = A = Karate, B = Taekwondo, C = Boks, D = Judo
+06. Jak nazywa się miasto, w którym znajduje się Most Brookliński?
+prawidłowa odpowiedz = Nowy Jork
+odpowiedz ABCD = A = Boston, B = Chicago, C = Nowy Jork, D = Filadelfia
+07. Kto namalował obraz Ostatnia Wieczerza (fresk w Mediolanie)?
+prawidłowa odpowiedz = Leonardo da Vinci
+odpowiedz ABCD = A = Rafael Santi, B = Michał Anioł, C = Tycjan, D = Leonardo da Vinci
+08. Jak nazywa się główny bohater powieści Lalka Bolesława Prusa?
+prawidłowa odpowiedz = Stanisław Wokulski
+odpowiedz ABCD = A = Cezary Baryka, B = Ignacy Rzecki, C = Stanisław Wokulski, D = Jacek Soplica
+09. W którym roku wynaleziono telefon (przez Grahama Bella)?
+prawidłowa odpowiedz = 1876
+odpowiedz ABCD = A = 1845, B = 1876, C = 1901, D = 1920
+10. Co oznacza skrót WHO?
+prawidłowa odpowiedź = Światowa Organizacja Zdrowia
+odpowiedz ABCD = A = Światowy Handlowy Oddział, B = Światowa Organizacja Zdrowia, C = Organizacja Współpracy Humanitarnej, D = Światowa Organizacja Meteorologiczna
+11. Jak nazywa się najsłynniejszy wulkan na Islandii, który sparaliżował ruch lotniczy w 2010 roku?
+prawidłowa odpowiedź = Eyjafjallajökull
+odpowiedz ABCD = A = Hekla, B = Katla, C = Etna, D = Eyjafjallajökull
+12. Jak nazywa się najdłuższy łańcuch górski w Europie?
+prawidłowa odpowiedź = Alpy
+odpowiedz ABCD = A = Karpaty, B = Pireneje, C = Alpy, D = Apeniny
+13. Jaka jest waluta Danii?
+prawidłowa odpowiedź = Korona duńska
+odpowiedz ABCD = A = Euro, B = Korona duńska, C = Frank, D = Dolar
+14. Jak nazywa się polskie miasto znane z toru wyścigowego Formuły 1 (nie ma F1 w Polsce, ale to jest mylące)?
+prawidłowa odpowiedź = Żaden polski tor
+odpowiedz ABCD = A = Poznań, B = Warszawa, C = Kielce, D = Żaden polski tor
+15. Która z planet Układu Słonecznego jest najbliższa Ziemi (poza Wenus)?
+prawidłowa odpowiedź = Mars
+odpowiedz ABCD = A = Jowisz, B = Mars, C = Merkury, D = Saturn
+16. W którym roku Polska została przyjęta do Strefy Schengen?
+prawidłowa odpowiedź = 2007
+odpowiedz ABCD = A = 2004, B = 2007, C = 1999, D = 2011
+17. Jak nazywa się proces, w którym ciało stałe przechodzi bezpośrednio w gaz (z pominięciem cieczy)?
+prawidłowa odpowiedź = Sublimacja
+odpowiedz ABCD = A = Topnienie, B = Skraplanie, C = Sublimacja, D = Krzepnięcie
+18. Jakie imię nosił polski król, który jako ostatni z Piastów zasiadał na tronie?
+prawidłowa odpowiedź = Kazimierz III Wielki
+odpowiedz ABCD = A = Władysław Łokietek, B = Bolesław Krzywousty, C = Kazimierz III Wielki, D = Przemysł II
+19. W jakim kraju leży Wielki Mur Chiński?
+prawidłowa odpowiedź = Chiny
+odpowiedz ABCD = A = Indie, B = Japonia, C = Chiny, D = Korea
+20. Kto jest autorem powieści Hobbit, czyli tam i z powrotem?
+prawidłowa odpowiedź = J.R.R. Tolkien
+odpowiedz ABCD = A = C.S. Lewis, B = J.R.R. Tolkien, C = J.K. Rowling, D = George R.R. Martin
+21. Jak nazywa się efekt, w którym światło rozprasza się na małych cząsteczkach w atmosferze, powodując błękit nieba?
+prawidłowa odpowiedź = Rozpraszanie Rayleigha
+odpowiedz ABCD = A = Efekt Dopplera, B = Rozpraszanie Rayleigha, C = Odbicie całkowite, D = Dyfrakcja
+22. Jak nazywa się najlżejszy gaz szlachetny?
+prawidłowa odpowiedź = Hel
+odpowiedz ABCD = A = Neon, B = Argon, C = Hel, D = Krypton
+23. Jaka jest stolica Egiptu?
+prawidłowa odpowiedź = Kair
+odpowiedz ABCD = A = Aleksandria, B = Luxor, C = Kair, D = Giza
+24. W którym sporcie znany był Muhammad Ali?
+prawidłowa odpowiedź = Boks
+odpowiedz ABCD = A = Koszykówka, B = Futbol amerykański, C = Lekkoatletyka, D = Boks
+25. Kto był polską noblistką w dziedzinie fizyki i chemii?
+prawidłowa odpowiedź = Maria Skłodowska-Curie
+odpowiedz ABCD = A = Wisława Szymborska, B = Maria Skłodowska-Curie, C = Olga Tokarczuk, D = Irena Sendler
+26. Jak nazywa się słynny wodospad w Ameryce Północnej, na granicy USA i Kanady?
+prawidłowa odpowiedź = Wodospad Niagara
+odpowiedz ABCD = A = Wodospad Victoria, B = Wodospad Angel, C = Wodospad Niagara, D = Wodospad Iguazú
+27. Ile to jest $50 + 50 \times 2$?
+prawidłowa odpowiedź = 150
+odpowiedz ABCD = A = 200, B = 150, C = 100, D = 50
+28. Jak nazywa się najwyższy szczyt Alp?
+prawidłowa odpowiedź = Mont Blanc
+odpowiedz ABCD = A = Matterhorn, B = Grossglockner, C = Mont Blanc, D = Rysy
+29. Jak nazywa się stolica Kuby?
+prawidłowa odpowiedź = Hawana
+odpowiedz ABCD = A = Santiago de Cuba, B = Hawana, C = Santo Domingo, D = Kingston
+30. Czym jest w języku angielskim termin "mouse"?
+prawidłowa odpowiedź = Mysz
+odpowiedz ABCD = A = Monitor, B = Klawiatura, C = Mysz, D = Drukarka
+31. Kto stworzył system filozoficzny znany jako Platonizm?
+prawidłowa odpowiedź = Platon
+odpowiedz ABCD = A = Arystoteles, B = Sokrates, C = Platon, D = Tales z Miletu
+32. Jak nazywa się główny bohater filmu Forrest Gump?
+prawidłowa odpowiedź = Forrest Gump
+odpowiedz ABCD = A = Tom Hanks, B = Jenny Curran, C = Kapitan Dan, D = Forrest Gump
+33. Ile jest kontynentów na Ziemi (geograficznie)?
+prawidłowa odpowiedź = 7
+odpowiedz ABCD = A = 5, B = 6, C = 7, D = 8
+34. W którym polskim mieście urodził się papież Jan Paweł II?
+prawidłowa odpowiedź = Wadowice
+odpowiedz ABCD = A = Kraków, B = Wadowice, C = Częstochowa, D = Kalwaria Zebrzydowska
+35. Jaka jest waluta Rosji?
+prawidłowa odpowiedź = Rubel
+odpowiedz ABCD = A = Hrywna, B = Tenge, C = Rubel, D = Korona
+36. Jak nazywa się proces chemiczny spalania?
+prawidłowa odpowiedź = Utlenianie
+odpowiedz ABCD = A = Redukcja, B = Neutralizacja, C = Utlenianie, D = Elektroliza
+37. Kto jest autorem powieści 1984?
+prawidłowa odpowiedź = George Orwell
+odpowiedz ABCD = A = Aldous Huxley, B = Ray Bradbury, C = George Orwell, D = Franz Kafka
+38. Jak nazywa się największa planeta Układu Słonecznego?
+prawidłowa odpowiedź = Jowisz
+odpowiedz ABCD = A = Saturn, B = Uran, C = Jowisz, D = Neptun
+39. Jakim kolorem malowany jest Krzyż Maltański (często)?
+prawidłowa odpowiedź = Biały lub Czarny
+odpowiedz ABCD = A = Czerwony, B = Zielony, C = Niebieski, D = Biały lub Czarny
+40. Jak nazywa się rzeka, która płynie przez Paryż?
+prawidłowa odpowiedź = Sekwana
+odpowiedz ABCD = A = Tamiza, B = Rodan, C = Loara, D = Sekwana
+41. Jak nazywa się gatunek muzyczny, który powstał w Nowym Orleanie na przełomie XIX i XX wieku?
+prawidłowa odpowiedź = Jazz
+odpowiedz ABCD = A = Blues, B = Rock, C = Jazz, D = Gospel
+42. Jaki organ kontroluje poziom cukru we krwi?
+prawidłowa odpowiedź = Trzustka
+odpowiedz ABCD = A = Wątroba, B = Nerki, C = Trzustka, D = Śledziona
+43. Jak nazywa się słynny włoski wulkan, który zniszczył Pompeje w 79 r. n.e.?
+prawidłowa odpowiedź = Wezuwiusz
+odpowiedz ABCD = A = Etna, B = Stromboli, C = Wezuwiusz, D = Fudżi
+44. Kto był założycielem dynastii Jagiellonów?
+prawidłowa odpowiedź = Władysław II Jagiełło
+odpowiedz ABCD = A = Kazimierz Jagiellończyk, B = Władysław II Jagiełło, C = Witold, D = Ludwik Węgierski
+45. Jak nazywa się miasto, w którym znajduje się Statua Wolności?
+prawidłowa odpowiedź = Nowy Jork
+odpowiedz ABCD = A = Los Angeles, B = Waszyngton, C = Nowy Jork, D = Boston
+46. Jaka jest jednostka pamięci masowej komputera?
+prawidłowa odpowiedź = Bajt
+odpowiedz ABCD = A = Bit, B = Hertz, C = Bajt, D = Wat
+47. Kto był trenerem polskiej reprezentacji piłki nożnej podczas Euro 2016?
+prawidłowa odpowiedź = Adam Nawałka
+odpowiedz ABCD = A = Leo Beenhakker, B = Jerzy Brzęczek, C = Adam Nawałka, D = Zbigniew Boniek
+48. Jak nazywa się polski film w reżyserii Andrzeja Wajdy, nagrodzony Złotą Palmą?
+prawidłowa odpowiedź = Człowiek z żelaza
+odpowiedz ABCD = A = Ziemia obiecana, B = Człowiek z marmuru, C = Katyń, D = Człowiek z żelaza
+49. Jak nazywa się najmniejszy z pierwiastków chemicznych?
+prawidłowa odpowiedź = Wodór
+odpowiedz ABCD = A = Hel, B = Tlen, C = Węgiel, D = Wodór
+50. Które państwo jest największe pod względem powierzchni w Ameryce Południowej?
+prawidłowa odpowiedź = Brazylia
+odpowiedz ABCD = A = Argentyna, B = Brazylia, C = Peru, D = Kolumbia

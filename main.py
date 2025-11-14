@@ -1,144 +1,102 @@
-import os
-import base64
-import json
-from datetime import datetime
-
-import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-
-# ⬇ ważne: to jest TWOJE repo z grą multiplayer
-GITHUB_REPO = os.getenv("GITHUB_REPO", "mechagdynia2-ai/game_multiplayer")
-
-# ⬇ ścieżka do pliku z rankingiem w repo
-# jeśli Twój plik ma inną nazwę niż leaderboard.json,
-# zmień to na np. "assets/ranking.json"
-GITHUB_FILE_PATH = os.getenv("GITHUB_FILE_PATH", "assets/leaderboard.json")
-
-GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-
-if not GITHUB_TOKEN:
-    raise RuntimeError("Brak zmiennej środowiskowej GITHUB_TOKEN")
-
+import requests
+import base64
+import os
+from datetime import datetime
 
 app = FastAPI()
 
-# CORS – pozwalamy na wywołania z Twojej gry w przeglądarce
+# Allow your Flet Web app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # później można zawęzić
-    allow_credentials=False,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# ----------------------------
+# CONFIG
+# ----------------------------
+OWNER = "mechagdynia2-ai"
+REPO = "game_multiplayer"
+FILE_PATH = "assets/leaderboard.json"
+API_URL = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{FILE_PATH}"
 
-class Score(BaseModel):
-    player: str
-    score: int
-    time: int  # czas w sekundach
+TOKEN = os.getenv("GITHUB_TOKEN")
+if not TOKEN:
+    print("⚠ WARNING: Missing GITHUB_TOKEN environment variable")
 
 
-async def _get_file():
-    """
-    Pobiera leaderboard.json z GitHuba (API contents)
-    i zwraca (lista_wyników, sha_pliku).
-    """
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github+json",
-    }
-
-    async with httpx.AsyncClient() as client:
-        r = await client.get(url, headers=headers)
+# ----------------------------
+# READ leaderboard.json FROM GITHUB
+# ----------------------------
+def get_leaderboard():
+    headers = {"Authorization": f"token {TOKEN}"}
+    r = requests.get(API_URL, headers=headers)
 
     if r.status_code != 200:
-        raise HTTPException(
-            status_code=500,
-            detail=f"GitHub GET error ({r.status_code}): {r.text}",
-        )
+        raise HTTPException(status_code=500, detail=f"GitHub GET error: {r.text}")
 
     data = r.json()
-    content_raw = base64.b64decode(data["content"]).decode("utf-8")
+    content = base64.b64decode(data["content"]).decode()
+    sha = data["sha"]
 
-    try:
-        leaderboard = json.loads(content_raw)
-        if not isinstance(leaderboard, list):
-            leaderboard = []
-    except Exception:
-        leaderboard = []
-
-    return leaderboard, data["sha"]
+    import json
+    return json.loads(content), sha
 
 
-async def _put_file(leaderboard, sha: str):
-    """
-    Zapisuje zaktualizowany leaderboard z powrotem do GitHuba.
-    """
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github+json",
-    }
+# ----------------------------
+# WRITE leaderboard.json TO GITHUB
+# ----------------------------
+def update_leaderboard(new_data, sha):
+    headers = {"Authorization": f"token {TOKEN}"}
+    import json
 
-    new_content = json.dumps(leaderboard, ensure_ascii=False, indent=2)
-    b64_content = base64.b64encode(new_content.encode("utf-8")).decode("utf-8")
+    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
 
     payload = {
-        "message": "Update leaderboard from game",
-        "content": b64_content,
+        "message": "Update leaderboard",
+        "content": encoded,
         "sha": sha,
-        "branch": GITHUB_BRANCH,
     }
 
-    async with httpx.AsyncClient() as client:
-        r = await client.put(url, headers=headers, json=payload)
+    r = requests.put(API_URL, json=payload, headers=headers)
+    if r.status_code not in [200, 201]:
+        raise HTTPException(status_code=500, detail=f"GitHub PUT error: {r.text}")
 
-    if r.status_code not in (200, 201):
-        raise HTTPException(
-            status_code=500,
-            detail=f"GitHub PUT error ({r.status_code}): {r.text}",
-        )
+
+# ----------------------------
+# ROUTES
+# ----------------------------
+
+@app.get("/")
+def index():
+    return {"message": "Awantura o Kasę Multiplayer – Backend działa 🎉"}
 
 
 @app.get("/leaderboard")
-async def get_leaderboard():
-    """
-    Zwraca posortowany ranking (top 50).
-    """
-    leaderboard, _ = await _get_file()
-
-    # sortujemy: najpierw po score malejąco, potem po czasie rosnąco
-    leaderboard_sorted = sorted(
-        leaderboard,
-        key=lambda item: (-int(item.get("score", 0)), int(item.get("time", 0))),
-    )
-    return leaderboard_sorted[:50]
+def leaderboard():
+    data, _ = get_leaderboard()
+    return data
 
 
 @app.post("/submit")
-async def submit(score: Score):
-    """
-    Dodaje nowy wpis do rankingu.
-    """
-    leaderboard, sha = await _get_file()
+def submit_score(player: str, score: int, time: int = 0):
+    lb, sha = get_leaderboard()
 
-    entry = {
-        "player": score.player[:32],  # max 32 znaki
-        "score": int(score.score),
-        "time": int(score.time),
-        "date": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"),
+    new_entry = {
+        "player": player,
+        "score": score,
+        "time": time,
+        "date": datetime.now().strftime("%Y-%m-%d %H:%M")
     }
 
-    leaderboard.append(entry)
+    lb.append(new_entry)
 
-    # żeby plik nie rósł w nieskończoność – trzymamy np. ostatnie 200 wyników
-    if len(leaderboard) > 200:
-        leaderboard = leaderboard[-200:]
+    # Sort by score DESC
+    lb = sorted(lb, key=lambda x: x["score"], reverse=True)
 
-    await _put_file(leaderboard, sha)
+    update_leaderboard(lb, sha)
 
-    return {"status": "ok", "saved": entry}
+    return {"status": "OK", "saved": new_entry}

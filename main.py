@@ -7,6 +7,22 @@ import uuid
 
 app = FastAPI(title="Awantura o Kasę – Multiplayer Backend")
 
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = [
+    "https://mechagdynia2-ai.github.io",
+    "https://mechagdynia2-ai.github.io/awantura_o_kase_multiplayer",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 
 class Player(BaseModel):
     id: str
@@ -297,3 +313,4 @@ def submit_score(score: SubmitScore):
 @app.get("/leaderboard")
 def get_leaderboard():
     return LEADERBOARD[:50]
+

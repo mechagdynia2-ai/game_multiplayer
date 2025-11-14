@@ -1,102 +1,108 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import requests
-import base64
-import os
-from datetime import datetime
+import json
+import time
+from pathlib import Path
 
 app = FastAPI()
 
-# Allow your Flet Web app
+DATA_DIR = Path("./data")
+DATA_DIR.mkdir(exist_ok=True)
+
+PLAYERS_FILE = DATA_DIR / "players.json"
+CHAT_FILE = DATA_DIR / "chat.json"
+LEADERBOARD_FILE = DATA_DIR / "leaderboard.json"
+
+for file in [PLAYERS_FILE, CHAT_FILE, LEADERBOARD_FILE]:
+    if not file.exists():
+        file.write_text("[]", encoding="utf-8")
+
+def load_json(path: Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except:
+        return []
+
+def save_json(path: Path, data):
+    path.write_text(json.dumps(data, indent=4, ensure_ascii=False), encoding="utf-8")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ----------------------------
-# CONFIG
-# ----------------------------
-OWNER = "mechagdynia2-ai"
-REPO = "game_multiplayer"
-FILE_PATH = "assets/leaderboard.json"
-API_URL = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{FILE_PATH}"
-
-TOKEN = os.getenv("GITHUB_TOKEN")
-if not TOKEN:
-    print("⚠ WARNING: Missing GITHUB_TOKEN environment variable")
-
-
-# ----------------------------
-# READ leaderboard.json FROM GITHUB
-# ----------------------------
-def get_leaderboard():
-    headers = {"Authorization": f"token {TOKEN}"}
-    r = requests.get(API_URL, headers=headers)
-
-    if r.status_code != 200:
-        raise HTTPException(status_code=500, detail=f"GitHub GET error: {r.text}")
-
-    data = r.json()
-    content = base64.b64decode(data["content"]).decode()
-    sha = data["sha"]
-
-    import json
-    return json.loads(content), sha
-
-
-# ----------------------------
-# WRITE leaderboard.json TO GITHUB
-# ----------------------------
-def update_leaderboard(new_data, sha):
-    headers = {"Authorization": f"token {TOKEN}"}
-    import json
-
-    encoded = base64.b64encode(json.dumps(new_data, indent=2).encode()).decode()
-
-    payload = {
-        "message": "Update leaderboard",
-        "content": encoded,
-        "sha": sha,
-    }
-
-    r = requests.put(API_URL, json=payload, headers=headers)
-    if r.status_code not in [200, 201]:
-        raise HTTPException(status_code=500, detail=f"GitHub PUT error: {r.text}")
-
-
-# ----------------------------
-# ROUTES
-# ----------------------------
-
 @app.get("/")
-def index():
+def root():
     return {"message": "Awantura o Kasę Multiplayer – Backend działa 🎉"}
 
-
 @app.get("/leaderboard")
-def leaderboard():
-    data, _ = get_leaderboard()
-    return data
-
+def get_leaderboard():
+    return load_json(LEADERBOARD_FILE)
 
 @app.post("/submit")
-def submit_score(player: str, score: int, time: int = 0):
-    lb, sha = get_leaderboard()
+def submit_score(data: dict):
+    leaderboard = load_json(LEADERBOARD_FILE)
 
-    new_entry = {
-        "player": player,
-        "score": score,
-        "time": time,
-        "date": datetime.now().strftime("%Y-%m-%d %H:%M")
+    entry = {
+        "player": data.get("player", "Anon"),
+        "score": data.get("score", 0),
+        "time": data.get("time", 0),
+        "date": time.strftime("%Y-%m-%d %H:%M:%S"),
     }
 
-    lb.append(new_entry)
+    leaderboard.append(entry)
+    leaderboard = sorted(leaderboard, key=lambda x: x["score"], reverse=True)
 
-    # Sort by score DESC
-    lb = sorted(lb, key=lambda x: x["score"], reverse=True)
+    save_json(LEADERBOARD_FILE, leaderboard)
+    return {"status": "OK", "saved": entry}
 
-    update_leaderboard(lb, sha)
+@app.get("/players")
+def get_players():
+    players = load_json(PLAYERS_FILE)
+    now = time.time()
+    players = [p for p in players if now - p["last_seen"] < 60]
+    save_json(PLAYERS_FILE, players)
+    return players
 
-    return {"status": "OK", "saved": new_entry}
+@app.post("/players/join")
+def player_join(data: dict):
+    name = data.get("name", "").strip()
+    if not name:
+        return {"error": "No name"}
+
+    players = load_json(PLAYERS_FILE)
+    now = time.time()
+
+    for p in players:
+        if p["name"] == name:
+            p["last_seen"] = now
+            save_json(PLAYERS_FILE, players)
+            return {"status": "updated", "name": name}
+
+    players.append({"name": name, "last_seen": now})
+    save_json(PLAYERS_FILE, players)
+    return {"status": "joined", "name": name}
+
+@app.get("/chat")
+def get_chat():
+    return load_json(CHAT_FILE)[-50:]
+
+@app.post("/chat/send")
+def send_message(data: dict):
+    name = data.get("name", "Anon")
+    msg = data.get("msg", "").strip()
+    if not msg:
+        return {"error": "empty message"}
+
+    chat = load_json(CHAT_FILE)
+    chat.append({
+        "name": name,
+        "msg": msg,
+        "time": time.strftime("%H:%M:%S")
+    })
+
+    save_json(CHAT_FILE, chat)
+    return {"status": "sent"}

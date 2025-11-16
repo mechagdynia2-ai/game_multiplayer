@@ -5,6 +5,20 @@ from typing import List, Dict, Optional
 import time
 import uuid
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://mechagdynia2-ai.github.io",
+        "https://mechagdynia2-ai.github.io/",
+        "*"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 app = FastAPI(title="Awantura o Kasę – Multiplayer Backend (lobby + 1 gra)")
 
@@ -896,3 +910,4 @@ def state():
         players=players_state,
         chat=chat_slice,
     )
+

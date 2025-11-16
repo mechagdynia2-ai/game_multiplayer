@@ -7,7 +7,7 @@ import uuid
 
 app = FastAPI(title="Awantura o Kasę – Multiplayer Backend")
 
-# --- CORS -------------------------------------------------------------------
+# --- CORS -----------------------------------------------------------------
 
 origins = [
     "https://mechagdynia2-ai.github.io",
@@ -22,16 +22,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- MODELE DANYCH ----------------------------------------------------------
+
+# --- MODELE DANYCH --------------------------------------------------------
 
 
 class Player(BaseModel):
     id: str
     name: str
     money: int = 10000
-    created_ts: float  # kiedy dołączył
-    last_seen: float   # ostatnia aktywność (bid/heartbeat/chat)
     is_admin: bool = False
+    last_seen: float = 0.0  # timestamp ostatniego heartbeat/state
 
 
 class PlayerState(BaseModel):
@@ -40,14 +40,14 @@ class PlayerState(BaseModel):
     money: int
     bid: int
     is_all_in: bool
-    is_admin: bool  # informacja dla frontendu
+    is_admin: bool
 
 
 class BidInfo(BaseModel):
     player_id: str
     amount: int
     is_all_in: bool
-    ts: float
+    ts: float  # kiedy złożono ostatnią ofertę
 
 
 class ChatMessage(BaseModel):
@@ -70,6 +70,10 @@ class ChatRequest(BaseModel):
     message: str
 
 
+class HeartbeatRequest(BaseModel):
+    player_id: str
+
+
 class SubmitScore(BaseModel):
     player: str
     score: int
@@ -83,10 +87,6 @@ class LeaderboardEntry(BaseModel):
     date: float
 
 
-class HeartbeatRequest(BaseModel):
-    player_id: str
-
-
 class StateResponse(BaseModel):
     round_id: int
     phase: str
@@ -97,7 +97,8 @@ class StateResponse(BaseModel):
     chat: List[ChatMessage]
 
 
-# --- STAN SERWERA (IN-MEMORY) ----------------------------------------------
+# --- STAN SERWERA ---------------------------------------------------------
+
 
 PLAYERS: Dict[str, Player] = {}
 BIDS: Dict[str, BidInfo] = {}
@@ -111,20 +112,18 @@ BIDDING_DURATION: float = 20.0
 POT: int = 0
 ANSWERING_PLAYER_ID: Optional[str] = None
 
-ADMIN_ID: Optional[str] = None        # aktualny admin
-INACTIVITY_TIMEOUT: float = 30.0      # po tylu sekundach gracz jest usuwany
+AFK_TIMEOUT: float = 30.0  # sekundy bez heartbeat/state → wyrzucenie
 
-# --- FUNKCJE POMOCNICZE -----------------------------------------------------
+
+# --- FUNKCJE POMOCNICZE ---------------------------------------------------
 
 
 def _recompute_pot() -> None:
-    """Przelicz sumę puli na podstawie BIDS."""
     global POT
     POT = sum(b.amount for b in BIDS.values())
 
 
 def _time_left() -> float:
-    """Ile sekund zostało do końca licytacji."""
     if PHASE != "bidding":
         return 0.0
     now = time.time()
@@ -133,7 +132,7 @@ def _time_left() -> float:
 
 
 def _auto_finish_if_needed() -> None:
-    """Jeśli czas licytacji minął – kończymy licytację."""
+    """Jeśli czas licytacji minął — kończymy ją."""
     global PHASE
     if PHASE == "bidding" and _time_left() <= 0:
         _finish_bidding(trigger="timer")
@@ -141,8 +140,9 @@ def _auto_finish_if_needed() -> None:
 
 def _finish_bidding(trigger: str) -> None:
     """
-    Wybór gracza odpowiadającego po zakończeniu licytacji.
-    trigger: "timer" albo "allin"
+    Wybór zwycięzcy licytacji:
+    - największa kwota
+    - przy remisie: wcześniejszy timestamp
     """
     global PHASE, ANSWERING_PLAYER_ID
 
@@ -161,12 +161,16 @@ def _finish_bidding(trigger: str) -> None:
             elif bid.amount == best.amount and bid.ts < best.ts:
                 best = bid
 
-    ANSWERING_PLAYER_ID = best.player_id if best else None
+    if best is not None:
+        ANSWERING_PLAYER_ID = best.player_id
+    else:
+        ANSWERING_PLAYER_ID = None
+
     PHASE = "answering"
 
 
 def _start_new_round() -> None:
-    """Reset stanu rundy i przejście do kolejnej licytacji."""
+    """Ręczne rozpoczęcie nowej rundy (admin, /next_round)."""
     global ROUND_ID, PHASE, ROUND_START_TS, POT, ANSWERING_PLAYER_ID, BIDS
     ROUND_ID += 1
     PHASE = "bidding"
@@ -176,52 +180,42 @@ def _start_new_round() -> None:
     BIDS = {}
 
 
-def _assign_admin_if_needed() -> None:
-    """Jeśli nie ma admina, wyznacz go (najstarszy gracz)."""
-    global ADMIN_ID
-    if ADMIN_ID is not None and ADMIN_ID in PLAYERS:
-        return
-    if not PLAYERS:
-        ADMIN_ID = None
-        return
-
-    # najstarszy (najmniejszy created_ts)
-    oldest = min(PLAYERS.values(), key=lambda p: p.created_ts)
-    ADMIN_ID = oldest.id
-    for p in PLAYERS.values():
-        p.is_admin = (p.id == ADMIN_ID)
-
-
-def _drop_inactive_players() -> None:
+def _cleanup_afk() -> None:
     """
-    Usuwa graczy nieaktywnych dłużej niż INACTIVITY_TIMEOUT
-    (nie ma heartbeat, bidów ani wysyłania wiadomości).
+    Usuwa graczy, którzy nie wysłali heartbeat /state od AFK_TIMEOUT sekund.
+    Czyści też ich stawki i przelicza pulę.
     """
-    global ADMIN_ID, ANSWERING_PLAYER_ID
+    global ANSWERING_PLAYER_ID
 
     now = time.time()
-    to_delete = [
-        pid
-        for pid, p in PLAYERS.items()
-        if (now - p.last_seen) > INACTIVITY_TIMEOUT
-    ]
+    to_delete = []
+
+    for pid, player in PLAYERS.items():
+        if now - player.last_seen > AFK_TIMEOUT:
+            to_delete.append(pid)
 
     if not to_delete:
         return
 
     for pid in to_delete:
+        print(f"[AFK] Usuwam gracza {pid} ({PLAYERS[pid].name})")
         del PLAYERS[pid]
         if pid in BIDS:
             del BIDS[pid]
         if pid == ANSWERING_PLAYER_ID:
             ANSWERING_PLAYER_ID = None
 
-    # po usunięciu – przepisz admina, jeśli trzeba
-    _assign_admin_if_needed()
     _recompute_pot()
 
 
-# --- ENDPOINTY --------------------------------------------------------------
+def _touch_player(player_id: str) -> None:
+    """Aktualizacja last_seen (przy heartbeat i state, gdy znamy id)."""
+    p = PLAYERS.get(player_id)
+    if p:
+        p.last_seen = time.time()
+
+
+# --- ENDPOINTY ------------------------------------------------------------
 
 
 @app.get("/")
@@ -232,63 +226,57 @@ def root():
     }
 
 
+# --- REJESTRACJA GRACZA ---------------------------------------------------
+
+
 @app.post("/register", response_model=Player)
-def register_player(req: RegisterRequest) -> Player:
+def register_player(req: RegisterRequest):
     """
-    Rejestracja nowego gracza.
-    Pierwszy gracz zostaje ADMINEM.
+    Rejestruje gracza; pierwszy gracz w systemie zostaje ADMINEM.
     """
-    global ADMIN_ID
-
-    now = time.time()
     player_id = str(uuid.uuid4())
-
     is_first_player = len(PLAYERS) == 0
-    is_admin = is_first_player
 
     player = Player(
         id=player_id,
         name=req.name,
         money=10000,
-        created_ts=now,
-        last_seen=now,
-        is_admin=is_admin,
+        is_admin=is_first_player,
+        last_seen=time.time(),
     )
     PLAYERS[player_id] = player
-
-    if is_admin:
-        ADMIN_ID = player_id
-    else:
-        _assign_admin_if_needed()
-
+    print(f"[REGISTER] {req.name} ({player_id}), admin={is_first_player}")
     return player
 
 
 @app.get("/players", response_model=List[Player])
 def list_players():
-    """Surowa lista graczy (do debug / admin)."""
-    _drop_inactive_players()
+    _cleanup_afk()
     return list(PLAYERS.values())
+
+
+# --- HEARTBEAT (utrzymanie przy życiu) -----------------------------------
 
 
 @app.post("/heartbeat")
 def heartbeat(req: HeartbeatRequest):
     """
-    Gracz wysyła heartbeat, żeby nie zostać wyrzuconym po 30s.
-    Można wywoływać np. co 10 sekund z frontendu.
+    Frontend wywołuje co ~10 s.
+
+    Aktualizujemy last_seen i zwracamy info, czy gracz jest adminem.
+    Jeśli gracza nie ma (bo wygasł / został wyrzucony) → 404.
     """
-    if req.player_id not in PLAYERS:
-        raise HTTPException(status_code=404, detail="Nie ma takiego gracza.")
+    _cleanup_afk()
 
-    now = time.time()
-    PLAYERS[req.player_id].last_seen = now
-    _drop_inactive_players()
-    _assign_admin_if_needed()
+    player = PLAYERS.get(req.player_id)
+    if not player:
+        raise HTTPException(status_code=404, detail="Gracz nie istnieje (AFK lub nieznany).")
 
-    return {
-        "status": "ok",
-        "is_admin": PLAYERS[req.player_id].is_admin,
-    }
+    player.last_seen = time.time()
+    return {"status": "ok", "is_admin": player.is_admin}
+
+
+# --- LICYTACJA ------------------------------------------------------------
 
 
 @app.post("/bid")
@@ -298,10 +286,7 @@ def place_bid(req: BidRequest):
     if req.player_id not in PLAYERS:
         raise HTTPException(status_code=404, detail="Nie ma takiego gracza.")
 
-    # aktualizacja aktywności
-    PLAYERS[req.player_id].last_seen = time.time()
-    _drop_inactive_players()
-
+    _cleanup_afk()
     _auto_finish_if_needed()
 
     if PHASE != "bidding":
@@ -311,6 +296,7 @@ def place_bid(req: BidRequest):
         )
 
     player = PLAYERS[req.player_id]
+    player.last_seen = time.time()
     now = time.time()
 
     if req.kind == "normal":
@@ -365,29 +351,40 @@ def place_bid(req: BidRequest):
         return {"status": "ok", "pot": POT, "phase": PHASE}
 
     else:
-        raise HTTPException(status_code=400, detail="Nieznany rodzaj licytacji.")
+        raise HTTPException(
+            status_code=400,
+            detail="Nieznany rodzaj licytacji.",
+        )
+
+
+# --- NOWA RUNDA (np. wywoływana przez admina z frontu) --------------------
 
 
 @app.post("/next_round")
 def next_round():
-    """
-    Przejście do kolejnej rundy.
-    (Na razie bez sprawdzania admina – można dodać w przyszłości.)
-    """
+    _cleanup_afk()
     _start_new_round()
     return {"status": "ok", "round_id": ROUND_ID}
+
+
+# --- STAN GRY -------------------------------------------------------------
 
 
 @app.get("/state", response_model=StateResponse)
 def get_state():
     """
-    Aktualny stan gry: runda, faza, pula, timer, gracze, chat.
+    Zwraca:
+    - aktualną fazę
+    - pulę
+    - czas do końca licytacji
+    - gracza, który wygrał licytację (answering_player_id)
+    - listę graczy (z is_admin)
+    - czat (ostatnie 30 wpisów)
     """
-    _drop_inactive_players()
+    _cleanup_afk()
     _auto_finish_if_needed()
 
     players_state: List[PlayerState] = []
-
     for pid, p in PLAYERS.items():
         bid_info = BIDS.get(pid)
         bid_amount = bid_info.amount if bid_info else 0
@@ -416,36 +413,31 @@ def get_state():
     )
 
 
+# --- CZAT -----------------------------------------------------------------
+
+
 @app.post("/chat")
 def post_chat(msg: ChatRequest):
-    """
-    Prosty czat – NIE jest powiązany ściśle z player_id,
-    ale wiadomość liczy się jako aktywność gracza, jeśli istnieje.
-    """
-    now = time.time()
-    # jeśli ktoś ma taki nick – potraktuj jako aktywność
-    for p in PLAYERS.values():
-        if p.name == msg.player:
-            p.last_seen = now
-            break
-
+    _cleanup_afk()
     CHAT.append(
         ChatMessage(
             player=msg.player,
             message=msg.message,
-            timestamp=now,
+            timestamp=time.time(),
         )
     )
     if len(CHAT) > 200:
         del CHAT[:-200]
-    _drop_inactive_players()
     return {"status": "ok"}
 
 
 @app.get("/chat", response_model=List[ChatMessage])
 def get_chat():
-    _drop_inactive_players()
+    _cleanup_afk()
     return CHAT[-50:]
+
+
+# --- LEADERBOARD ----------------------------------------------------------
 
 
 @app.post("/submit")
@@ -465,4 +457,5 @@ def submit_score(score: SubmitScore):
 
 @app.get("/leaderboard")
 def get_leaderboard():
+    _cleanup_afk()
     return LEADERBOARD[:50]

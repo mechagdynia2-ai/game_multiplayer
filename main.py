@@ -1,13 +1,14 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Set
 import time
 import uuid
 
 app = FastAPI(title="Awantura o Kasę – Multiplayer Backend")
 
 # --- CORS: frontend na GitHub Pages i lokalnie ---
+
 origins = [
     "https://mechagdynia2-ai.github.io",
     "https://mechagdynia2-ai.github.io/awantura_o_kase_multiplayer",
@@ -42,6 +43,7 @@ class PlayerState(BaseModel):
     bid: int
     is_all_in: bool
     is_admin: bool
+    is_observer: bool
 
 
 class BidInfo(BaseModel):
@@ -49,6 +51,7 @@ class BidInfo(BaseModel):
     amount: int
     is_all_in: bool
     ts: float
+    finished: bool = False  # czy gracz kliknął "Kończę licytację"
 
 
 class ChatMessage(BaseModel):
@@ -109,28 +112,44 @@ BIDS: Dict[str, BidInfo] = {}
 CHAT: List[ChatMessage] = []
 LEADERBOARD: List[LeaderboardEntry] = []
 
-ROUND_ID: int = 1
-PHASE: str = "bidding"  # "bidding" | "answering"
+ROUND_ID: int = 0
+PHASE: str = "waiting"  # "waiting" | "bidding" | "answering"
+
 ROUND_START_TS: float = time.time()
 BIDDING_DURATION: float = 20.0
+
 POT: int = 0
 ANSWERING_PLAYER_ID: Optional[str] = None
 
-HEARTBEAT_TIMEOUT: float = 60.0  # po tylu sekundach uznajemy gracza za rozłączonego
-MAX_ACTIVE_PLAYERS: int = 20     # powyżej tego nowi mogą być obserwatorami
+HEARTBEAT_TIMEOUT: float = 60.0
+MAX_ACTIVE_PLAYERS: int = 20
+
+ENTRY_FEE: int = 500        # min. kwota wejścia do rundy
+MAX_BID_PER_ROUND: int = 5000  # maksymalna stawka znormalizowana (500 start + dobijanie do 5000)
+
+# zbiór graczy, którzy kliknęli "Kończę licytację"
+FINISHED_BIDDERS: Set[str] = set()
 
 
 # --- FUNKCJE POMOCNICZE ---
 
 
+def _bot_say(message: str) -> None:
+    CHAT.append(
+        ChatMessage(
+            player="BOT",
+            message=message,
+            timestamp=time.time(),
+        )
+    )
+
+
 def _recompute_pot() -> None:
-    """Przelicz pulę na podstawie BIDS."""
     global POT
     POT = sum(b.amount for b in BIDS.values())
 
 
 def _time_left() -> float:
-    """Ile sekund pozostało do końca licytacji."""
     if PHASE != "bidding":
         return 0.0
     now = time.time()
@@ -138,22 +157,11 @@ def _time_left() -> float:
     return max(0.0, left)
 
 
-def _finish_bidding(trigger: str) -> None:
+def _find_best_bid() -> Optional[BidInfo]:
     """
-    Zakończ licytację:
-    - wybierz gracza z najwyższą stawką (przy remisie wygrywa wcześniejszy czas).
-    - przełącz PHASE na 'answering'.
+    Zwraca BidInfo z najwyższą stawką.
+    Przy remisie wygrywa wcześniejszy timestamp.
     """
-    global PHASE, ANSWERING_PLAYER_ID
-
-    if PHASE != "bidding":
-        return
-
-    if not BIDS:
-        ANSWERING_PLAYER_ID = None
-        PHASE = "answering"
-        return
-
     best: Optional[BidInfo] = None
     for bid in BIDS.values():
         if best is None:
@@ -163,37 +171,53 @@ def _finish_bidding(trigger: str) -> None:
                 best = bid
             elif bid.amount == best.amount and bid.ts < best.ts:
                 best = bid
+    return best
 
-    ANSWERING_PLAYER_ID = best.player_id if best else None
+
+def _finish_bidding(trigger: str) -> None:
+    """
+    Zakończenie licytacji:
+    - wybiera zwycięzcę,
+    - ustawia PHASE="answering",
+    - wysyła komunikat BOT na czat.
+    """
+    global PHASE, ANSWERING_PLAYER_ID
+
+    if PHASE != "bidding":
+        return
+
+    best = _find_best_bid()
+    if best is None:
+        ANSWERING_PLAYER_ID = None
+        PHASE = "answering"
+        _bot_say(f"Licytacja zakończona ({trigger}). Nikt nie licytował.")
+        return
+
+    ANSWERING_PLAYER_ID = best.player_id
     PHASE = "answering"
+    player = PLAYERS.get(best.player_id)
+    name = player.name if player else "???"
+    _bot_say(
+        f"Licytacja zakończona ({trigger}). Gracz {name} wygrywa licytację "
+        f"i odpowiada na pytanie. Pula: {POT} zł."
+    )
 
 
 def _auto_finish_if_needed() -> None:
-    """Jeśli czas licytacji minął, automatycznie zakończ licytację."""
     if PHASE == "bidding" and _time_left() <= 0:
         _finish_bidding(trigger="timer")
 
 
-def _start_new_round() -> None:
-    """Nowa runda – reset licytacji, nowy ROUND_ID."""
-    global ROUND_ID, PHASE, ROUND_START_TS, POT, ANSWERING_PLAYER_ID, BIDS
-    ROUND_ID += 1
-    PHASE = "bidding"
-    ROUND_START_TS = time.time()
-    POT = 0
-    ANSWERING_PLAYER_ID = None
-    BIDS = {}
-
-
 def _cleanup_inactive_players() -> None:
     """
-    Usuwanie graczy, którzy nie wysyłali heartbeat przez dłużej niż HEARTBEAT_TIMEOUT.
-    Jeśli admin zniknie – wyznacz nowego admina (pierwszy z listy).
+    Usuwanie graczy, którzy są nieaktywni (brak heartbeat).
+    Jeśli admin zniknie – wyznacz nowego admina.
     """
     global PLAYERS, BIDS
 
     now = time.time()
     removed_ids = []
+
     for pid, p in list(PLAYERS.items()):
         if now - p.last_heartbeat > HEARTBEAT_TIMEOUT:
             removed_ids.append(pid)
@@ -202,26 +226,72 @@ def _cleanup_inactive_players() -> None:
         player = PLAYERS.pop(pid, None)
         BIDS.pop(pid, None)
         if player:
-            CHAT.append(
-                ChatMessage(
-                    player="BOT",
-                    message=f"Gracz {player.name} został odłączony (brak heartbeat).",
-                    timestamp=time.time(),
-                )
-            )
+            _bot_say(f"Gracz {player.name} opuścił grę (brak połączenia).")
 
     # Jeśli nie ma admina, a są gracze -> wyznacz nowego
     if PLAYERS and not any(p.is_admin for p in PLAYERS.values()):
-        # pierwszy z istniejących staje się adminem
         first_pid = next(iter(PLAYERS))
         PLAYERS[first_pid].is_admin = True
-        CHAT.append(
-            ChatMessage(
-                player="BOT",
-                message=f"Gracz {PLAYERS[first_pid].name} został nowym ADMINEM.",
-                timestamp=time.time(),
+        _bot_say(f"Gracz {PLAYERS[first_pid].name} został nowym ADMINEM.")
+
+
+def _start_new_round() -> None:
+    """
+    Nowa runda:
+    - zwiększa ROUND_ID,
+    - ustawia PHASE="bidding",
+    - pobiera ENTRY_FEE od graczy z min. 500 zł,
+    - tworzy początkowe stawki (po 500 zł),
+    - graczy z kasą < 500 oznacza jako obserwatorów.
+    """
+    global ROUND_ID, PHASE, ROUND_START_TS, POT, ANSWERING_PLAYER_ID, BIDS, FINISHED_BIDDERS
+
+    ROUND_ID += 1
+    PHASE = "bidding"
+    ROUND_START_TS = time.time()
+    POT = 0
+    ANSWERING_PLAYER_ID = None
+    BIDS = {}
+    FINISHED_BIDDERS = set()
+
+    active_players = [p for p in PLAYERS.values() if not p.is_observer]
+    now = time.time()
+
+    if len(active_players) < 2:
+        _bot_say("Za mało graczy z pełnym udziałem (min. 2). Runda nie została rozpoczęta.")
+        PHASE = "waiting"
+        return
+
+    for p in active_players:
+        if p.money < ENTRY_FEE:
+            p.is_observer = True
+            _bot_say(
+                f"Gracz {p.name} ma mniej niż {ENTRY_FEE} zł "
+                f"i staje się obserwatorem."
             )
+            continue
+
+        # pobieramy 500 zł i tworzymy początkową stawkę
+        p.money -= ENTRY_FEE
+        BIDS[p.id] = BidInfo(
+            player_id=p.id,
+            amount=ENTRY_FEE,
+            is_all_in=False,
+            ts=now,
+            finished=False,
         )
+
+    _recompute_pot()
+
+    if not BIDS:
+        _bot_say("Żaden gracz nie miał wystarczających środków. Runda nie wystartowała.")
+        PHASE = "waiting"
+        return
+
+    _bot_say(
+        f"Start rundy #{ROUND_ID}! Każdy gracz wniósł po {ENTRY_FEE} zł "
+        f"do puli. Pula startowa: {POT} zł. Macie {int(BIDDING_DURATION)} s na licytację."
+    )
 
 
 # --- ENDPOINTY ---
@@ -239,8 +309,8 @@ def root():
 def register_player(req: RegisterRequest):
     """
     Rejestracja gracza.
-    Pierwszy gracz na serwerze zostaje ADMINEM.
-    Jeśli graczy jest więcej niż MAX_ACTIVE_PLAYERS – nowi mogą być obserwatorami.
+    Pierwszy gracz zostaje ADMINEM.
+    Po przekroczeniu MAX_ACTIVE_PLAYERS – nowi są obserwatorami.
     """
     global PLAYERS
 
@@ -261,21 +331,20 @@ def register_player(req: RegisterRequest):
     PLAYERS[player_id] = player
 
     if is_admin:
-        CHAT.append(
-            ChatMessage(
-                player="BOT",
-                message=f"Gracz {player.name} dołączył jako ADMIN.",
-                timestamp=now,
-            )
+        _bot_say(f"Gracz {player.name} dołączył jako ADMIN.")
+        _bot_say(
+            "ADMINIE, wpisz numer zestawu pytań na czacie (01–50), "
+            "aby rozpocząć grę."
         )
+    elif is_observer:
+        _bot_say(f"Gracz {player.name} dołączył jako obserwator.")
     else:
-        CHAT.append(
-            ChatMessage(
-                player="BOT",
-                message=f"Gracz {player.name} dołączył do gry.",
-                timestamp=now,
-            )
-        )
+        _bot_say(f"Gracz {player.name} dołączył do gry.")
+
+    # Jeśli po dołączeniu są przynajmniej 2 nieobserwujący gracze – BOT informuje
+    active_players = [p for p in PLAYERS.values() if not p.is_observer]
+    if len(active_players) == 2:
+        _bot_say("Dołączyło 2 graczy – możemy zaczynać grę multiplayer!")
 
     return player
 
@@ -288,9 +357,9 @@ def list_players():
 @app.post("/heartbeat")
 def heartbeat(req: HeartbeatRequest):
     """
-    Utrzymanie połączenia gracza.
-    Frontend wysyła co ok. 10 sekund {player_id: "..."}.
-    Zwracamy informację, czy gracz jest ADMINEM.
+    Utrzymanie połączenia.
+    Front wysyła co ~10 s {player_id}.
+    Zwracamy informację, czy gracz jest adminem, obserwatorem itp.
     """
     if req.player_id not in PLAYERS:
         raise HTTPException(status_code=404, detail="Nie ma takiego gracza.")
@@ -299,21 +368,26 @@ def heartbeat(req: HeartbeatRequest):
     player = PLAYERS[req.player_id]
     player.last_heartbeat = now
 
-    # Wyczyść nieaktywnych (w tym może zniknąć dotychczasowy admin)
     _cleanup_inactive_players()
 
-    # Po cleanupie, player może zostać adminem (np. gdy był jedynym w pokoju)
-    is_admin_now = PLAYERS.get(req.player_id, player).is_admin
+    player = PLAYERS.get(req.player_id)
+    if not player:
+        raise HTTPException(status_code=404, detail="Gracz został usunięty.")
 
-    return {"status": "ok", "is_admin": is_admin_now}
+    return {
+        "status": "ok",
+        "is_admin": player.is_admin,
+        "is_observer": player.is_observer,
+        "money": player.money,
+    }
 
 
 @app.post("/bid")
 def place_bid(req: BidRequest):
     """
     Licytacja:
-    - kind = "normal" -> +100 zł (jeśli gracz ma kasę)
-    - kind = "allin" -> wrzuca całą kasę, natychmiast kończy licytację
+    - kind = "normal" -> +100 zł (jeśli gracz ma kasę i nie przekracza MAX_BID_PER_ROUND),
+    - kind = "allin" -> VA BANQUE: wrzuca całą kasę, natychmiast kończy licytację.
     """
     global PHASE
 
@@ -337,6 +411,7 @@ def place_bid(req: BidRequest):
         )
 
     now = time.time()
+    current_bid = BIDS.get(req.player_id)
 
     if req.kind == "normal":
         cost = 100
@@ -345,18 +420,27 @@ def place_bid(req: BidRequest):
                 status_code=400,
                 detail="Za mało kasy na licytację +100.",
             )
+
+        new_amount = (current_bid.amount if current_bid else 0) + cost
+        # limit max 5000 zł w tej rundzie (bez VA BANQUE)
+        if new_amount > MAX_BID_PER_ROUND:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Limit licytacji w tej rundzie to {MAX_BID_PER_ROUND} zł.",
+            )
+
         player.money -= cost
 
-        if req.player_id in BIDS:
-            b = BIDS[req.player_id]
-            b.amount += cost
-            b.ts = now
+        if current_bid:
+            current_bid.amount = new_amount
+            current_bid.ts = now
         else:
             BIDS[req.player_id] = BidInfo(
                 player_id=req.player_id,
-                amount=cost,
+                amount=new_amount,
                 is_all_in=False,
                 ts=now,
+                finished=False,
             )
 
         _recompute_pot()
@@ -372,21 +456,22 @@ def place_bid(req: BidRequest):
         add_amount = player.money
         player.money = 0
 
-        if req.player_id in BIDS:
-            b = BIDS[req.player_id]
-            b.amount += add_amount
-            b.is_all_in = True
-            b.ts = now
+        if current_bid:
+            current_bid.amount += add_amount
+            current_bid.is_all_in = True
+            current_bid.ts = now
         else:
             BIDS[req.player_id] = BidInfo(
                 player_id=req.player_id,
                 amount=add_amount,
                 is_all_in=True,
                 ts=now,
+                finished=False,
             )
 
         _recompute_pot()
         _finish_bidding(trigger="allin")
+
         return {
             "status": "ok",
             "pot": POT,
@@ -401,44 +486,90 @@ def place_bid(req: BidRequest):
 @app.post("/finish_bidding")
 def finish_bidding(req: FinishBiddingRequest):
     """
-    Ręczne zakończenie licytacji – tylko ADMIN może to zrobić.
-    Używane z przycisku „Kończę licytację”.
+    „Kończę licytację”:
+    - jeśli ADMIN woła -> natychmiast kończymy,
+    - jeśli zwykły gracz -> odkładamy flagę; gdy wszyscy aktywni licytujący
+      zakończyli -> kończymy licytację.
     """
+    global FINISHED_BIDDERS
+
     if req.player_id not in PLAYERS:
         raise HTTPException(status_code=404, detail="Nie ma takiego gracza.")
 
-    player = PLAYERS[req.player_id]
-    if not player.is_admin:
+    _auto_finish_if_needed()
+
+    if PHASE != "bidding":
         raise HTTPException(
-            status_code=403,
-            detail="Tylko ADMIN może zakończyć licytację.",
+            status_code=400,
+            detail="Licytacja już została zakończona.",
         )
 
-    _finish_bidding(trigger="admin")
+    player = PLAYERS[req.player_id]
+
+    # Admin może zawsze wymusić koniec licytacji
+    if player.is_admin:
+        _finish_bidding(trigger="admin")
+        return {
+            "status": "ok",
+            "phase": PHASE,
+            "answering_player_id": ANSWERING_PLAYER_ID,
+            "pot": POT,
+            "finished_by": "admin",
+        }
+
+    # zwykły gracz -> zaznaczamy, że zakończył licytację
+    FINISHED_BIDDERS.add(req.player_id)
+    if req.player_id in BIDS:
+        BIDS[req.player_id].finished = True
+
+    # sprawdzamy, czy wszyscy nieobserwujący, którzy mają stawkę, zakończyli
+    active_bidders = [
+        pid
+        for pid, bid in BIDS.items()
+        if not PLAYERS.get(pid, Player(id="", name="")).is_observer
+        and bid.amount > 0
+    ]
+
+    all_finished = all(pid in FINISHED_BIDDERS for pid in active_bidders)
+
+    if active_bidders and all_finished:
+        _finish_bidding(trigger="all_players_finished")
+        return {
+            "status": "ok",
+            "phase": PHASE,
+            "answering_player_id": ANSWERING_PLAYER_ID,
+            "pot": POT,
+            "finished_by": "all_players",
+        }
+
     return {
         "status": "ok",
         "phase": PHASE,
         "answering_player_id": ANSWERING_PLAYER_ID,
         "pot": POT,
+        "finished_by": "partial",
     }
 
 
 @app.post("/next_round")
 def next_round():
     """
-    Start nowej rundy – zwykle wołane po wybraniu nowego zestawu pytań przez ADMINA.
+    Start nowej rundy – zwykle po wybraniu nowego pytania przez ADMINA
+    (frontend może wywołać to np. po wpisaniu numeru zestawu
+    i wysłaniu odpowiedniego komunikatu na czat).
     """
     _start_new_round()
-    return {"status": "ok", "round_id": ROUND_ID}
+    return {"status": "ok", "round_id": ROUND_ID, "phase": PHASE, "pot": POT}
 
 
 @app.get("/state", response_model=StateResponse)
 def get_state():
     """
-    Zwraca aktualny stan:
-    - tura, faza, czas do końca licytacji
-    - graczy wraz z ich stawkami i kasą
-    - czat (ostatnie ~30 wiadomości)
+    Aktualny stan gry do odświeżania frontendu:
+    - runda, faza,
+    - pula, czas do końca licytacji,
+    - gracze,
+    - czat (ostatnie 30 wiadomości).
     """
     _auto_finish_if_needed()
     _cleanup_inactive_players()
@@ -457,6 +588,7 @@ def get_state():
                 bid=bid_amount,
                 is_all_in=is_all_in,
                 is_admin=p.is_admin,
+                is_observer=p.is_observer,
             )
         )
 
@@ -475,6 +607,11 @@ def get_state():
 
 @app.post("/chat")
 def post_chat(msg: ChatRequest):
+    """
+    Zwykła wiadomość na czacie.
+    Uwaga: logika interpretacji komend (np. ADMIN wpisuje „4” -> wybór zestawu)
+    jest po stronie frontendu. Backend tylko przechowuje historię.
+    """
     CHAT.append(
         ChatMessage(
             player=msg.player,

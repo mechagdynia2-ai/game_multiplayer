@@ -9,7 +9,7 @@ import difflib
 import random
 from urllib.request import urlopen
 
-app = FastAPI(title="Awantura o Kasę – Multiplayer Backend (Mobile Fix)")
+app = FastAPI(title="Awantura o Kasę – Multiplayer Backend (Final Fix)")
 
 origins = ["*"]
 
@@ -104,7 +104,6 @@ ROUND_ID: int = 0
 PHASE: str = "idle"  
 ROUND_START_TS: float = time.time()
 
-# Nowa zmienna do pilnowania czasu odpowiedzi
 ANSWER_DEADLINE: float = 0.0 
 DISCUSSION_DEADLINE: float = 0.0
 
@@ -144,10 +143,8 @@ def _similarity(a: str, b: str) -> int:
 def _time_left() -> float:
     now = time.time()
     if PHASE == "bidding":
-        # 20 sekund na licytację
         return max(0.0, 20.0 - (now - ROUND_START_TS))
     elif PHASE == "answering":
-        # Czas do ANSWER_DEADLINE (dynamicznie wydłużany)
         return max(0.0, ANSWER_DEADLINE - now)
     elif PHASE == "discussion":
         return max(0.0, DISCUSSION_DEADLINE - now)
@@ -210,7 +207,7 @@ def _finish_bidding(trigger: str) -> None:
     if not BIDS:
         ANSWERING_PLAYER_ID = None
         PHASE = "answering" 
-        ANSWER_DEADLINE = time.time() + 5.0 # Krótki czas żeby przejść dalej
+        ANSWER_DEADLINE = time.time() + 5.0 
         CHAT.append(ChatMessage(player="BOT", message="Brak ofert.", timestamp=time.time()))
         return
 
@@ -223,18 +220,18 @@ def _finish_bidding(trigger: str) -> None:
     
     ANSWERING_PLAYER_ID = best.player_id if best else None
     PHASE = "answering"
-    # Ustawienie czasu na odpowiedź: 60 sekund (bazowo)
     ANSWER_DEADLINE = time.time() + 60.0
 
     if ANSWERING_PLAYER_ID and ANSWERING_PLAYER_ID in PLAYERS:
         winner = PLAYERS[ANSWERING_PLAYER_ID]
-        CHAT.append(ChatMessage(player="BOT", message=f"Licytację wygrywa {winner.name} ({best.amount} zł). Czas na odpowiedź: 60s.", timestamp=time.time()))
+        CHAT.append(ChatMessage(player="BOT", message=f"Licytację wygrywa {winner.name} ({best.amount} zł).", timestamp=time.time()))
 
     global POT
     POT += sum(b.amount for b in BIDS.values())
     
     if 0 <= CURRENT_Q_INDEX < len(QUESTIONS):
-        CHAT.append(ChatMessage(player="BOT", message=f"PYTANIE: {QUESTIONS[CURRENT_Q_INDEX]['question']}", timestamp=time.time()))
+        # Dodajemy drobne opóźnienie timestampu (0.01s), aby frontend na pewno odróżnił to od poprzedniej wiadomości
+        CHAT.append(ChatMessage(player="BOT", message=f"PYTANIE: {QUESTIONS[CURRENT_Q_INDEX]['question']}", timestamp=time.time() + 0.01))
 
 def _reset_game():
     global POT, ROUND_ID, PHASE, QUESTIONS, CURRENT_SET, CURRENT_Q_INDEX, BIDS
@@ -310,19 +307,17 @@ def _start_new_bidding_round():
         p.money -= 500
         BIDS[p.id] = BidInfo(player_id=p.id, amount=500, is_all_in=False, ts=time.time())
     
-    CHAT.append(ChatMessage(player="BOT", message=f"Runda {CURRENT_Q_INDEX+1}/{len(QUESTIONS)}. Wpisowe pobrane. Licytacja start (20s)!", timestamp=time.time()))
+    CHAT.append(ChatMessage(player="BOT", message=f"Runda {CURRENT_Q_INDEX+1}/{len(QUESTIONS)}. Wpisowe pobrane. Licytacja start!", timestamp=time.time()))
 
 def _auto_finalize_discussion_if_needed():
     global PHASE, POT, CURRENT_ANSWER_TEXT, CURRENT_ANSWER_PLAYER_ID
     if PHASE != "discussion": return
     
-    # 20 sekund na dyskusję
     if _time_left() > 0: return
 
     q = QUESTIONS[CURRENT_Q_INDEX]
     correct = q["correct"]
     
-    # Jeśli nikt nie odpowiedział (timeout w answering)
     if not CURRENT_ANSWER_TEXT:
         msg = f"Brak odpowiedzi! Poprawna to: {correct}. Pula {POT} zł przechodzi dalej."
     else:
@@ -341,25 +336,20 @@ def _auto_finalize_discussion_if_needed():
     _check_game_over_or_next_round()
 
 def _handle_answering_timeout():
-    """Jeśli czas na odpowiedź minął, przejdź do dyskusji (bez odpowiedzi)."""
     global PHASE, ANSWER_SUBMITTED_TS, DISCUSSION_DEADLINE, CURRENT_ANSWER_TEXT
     if PHASE == "answering" and _time_left() <= 0:
         PHASE = "discussion"
-        CURRENT_ANSWER_TEXT = "" # Brak odpowiedzi
+        CURRENT_ANSWER_TEXT = "" 
         DISCUSSION_DEADLINE = time.time() + 20.0
-        CHAT.append(ChatMessage(player="BOT", message="Czas minął! Nikt nie udzielił odpowiedzi. 20s na dyskusję.", timestamp=time.time()))
+        CHAT.append(ChatMessage(player="BOT", message="Czas minął! Brak odpowiedzi. 20s na dyskusję.", timestamp=time.time()))
 
 def _auto_advance_game_state():
-    # 1. Koniec licytacji
     if PHASE == "bidding" and _time_left() <= 0:
         _finish_bidding("timer")
-    # 2. Koniec czasu na odpowiedź
     if PHASE == "answering":
         _handle_answering_timeout()
-    # 3. Koniec dyskusji
     if PHASE == "discussion":
         _auto_finalize_discussion_if_needed()
-        
     _cleanup_inactive_players()
 
 # --- ENDPOINTY ---
@@ -470,7 +460,6 @@ def answer(req: AnswerRequest):
     CURRENT_ANSWER_PLAYER_ID = req.player_id
     ANSWER_SUBMITTED_TS = time.time()
     
-    # Zmieniamy fazę na discussion
     PHASE = "discussion"
     DISCUSSION_DEADLINE = time.time() + 20.0
     
@@ -498,7 +487,6 @@ def hint(req: HintRequest):
     
     p.money -= cost
     POT += cost
-    # Doliczamy 30 sekund
     ANSWER_DEADLINE += 30.0
     
     if req.kind == "abcd":

@@ -9,7 +9,7 @@ import difflib
 import random
 from urllib.request import urlopen
 
-app = FastAPI(title="Awantura o Kasę – Multiplayer Backend (Final Fix)")
+app = FastAPI(title="Awantura o Kasę – Multiplayer Backend (Final Fix v2)")
 
 origins = ["*"]
 
@@ -229,9 +229,12 @@ def _finish_bidding(trigger: str) -> None:
     global POT
     POT += sum(b.amount for b in BIDS.values())
     
+    # --- FIX: OPÓŹNIENIE DLA PYTANIA ---
+    # Dodajemy małe opóźnienie, aby timestamp pytania był unikalny i frontend go na pewno pobrał
+    time.sleep(0.05) 
+
     if 0 <= CURRENT_Q_INDEX < len(QUESTIONS):
-        # Dodajemy drobne opóźnienie timestampu (0.01s), aby frontend na pewno odróżnił to od poprzedniej wiadomości
-        CHAT.append(ChatMessage(player="BOT", message=f"PYTANIE: {QUESTIONS[CURRENT_Q_INDEX]['question']}", timestamp=time.time() + 0.01))
+        CHAT.append(ChatMessage(player="BOT", message=f"PYTANIE: {QUESTIONS[CURRENT_Q_INDEX]['question']}", timestamp=time.time()))
 
 def _reset_game():
     global POT, ROUND_ID, PHASE, QUESTIONS, CURRENT_SET, CURRENT_Q_INDEX, BIDS
